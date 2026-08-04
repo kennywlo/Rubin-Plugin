@@ -1,0 +1,69 @@
+{
+  "counts": {
+    "dataset_types": 35,
+    "edges": 480,
+    "quanta": 720,
+    "tasks": 3
+  },
+  "edges_file": "edges.jsonl",
+  "provenance": {
+    "butler_config": "/global/homes/k/kennylo/llm-apps/app/rc2_subset/SMALL_HSC/butler.yaml",
+    "butler_repo": "/global/homes/k/kennylo/llm-apps/app/rc2_subset/SMALL_HSC",
+    "exported_at": "2026-08-04T04:11:04.967644+00:00",
+    "instrument": "HSC",
+    "pinned": {
+      "ctrl_bps": "ge3e32f3943+dd41cd23f8",
+      "drp_pipe": "gc6b104cb6d+dad5072d3c",
+      "lsst_distrib": "g00e868bf88+c1824e70d0",
+      "lsst_release": "w_2026_31",
+      "obs_subaru": "g4db92921ce+973196f922",
+      "pipe_base": "g954f02917a+aa127417cf"
+    },
+    "qgraph_path": "/pscratch/sd/k/kennylo/cgsim-rubin/artifacts/central_six_step1_9813.qgraph",
+    "qgraph_uuid": "1785815689.7669582-812339",
+    "rc2_subset_commit": "432ea10",
+    "sanitized": false
+  },
+  "quanta_file": "quanta.jsonl",
+  "schema_version": "0.2",
+  "tasks": [
+    {
+      "class": "lsst.pipe.tasks.calibrateImage.CalibrateImageTask",
+      "dimensions": [
+        "band",
+        "detector",
+        "instrument",
+        "physical_filter",
+        "visit",
+        "visit_system"
+      ],
+      "label": "calibrateImage",
+      "resource_key": "calibrateImage:HSC"
+    },
+    {
+      "class": "lsst.ip.isr.isrTask.IsrTask",
+      "dimensions": [
+        "band",
+        "detector",
+        "exposure",
+        "instrument",
+        "physical_filter"
+      ],
+      "label": "isr",
+      "resource_key": "isr:HSC"
+    },
+    {
+      "class": "lsst.pipe.tasks.postprocess.TransformSourceTableTask",
+      "dimensions": [
+        "band",
+        "detector",
+        "instrument",
+        "physical_filter",
+        "visit",
+        "visit_system"
+      ],
+      "label": "transformPreSourceTable",
+      "resource_key": "transformPreSourceTable:HSC"
+    }
+  ]
+}
