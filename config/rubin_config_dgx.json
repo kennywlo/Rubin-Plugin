@@ -1,0 +1,11 @@
+{
+  "Grid_Name": "GRID",
+  "Sites_Information": "site_topology.json",
+  "Sites_Connection_Information": "site_connections.json",
+  "Dispatcher_Plugin": "../plugin/build-dgx-dag/libRubinPlugin.so",
+  "Limited_Sites": [],
+  "Custom_Parameters": {
+    "jobs_file": "../workload/quantum_graph_100_jobs.json",
+    "output_file": "/tmp/rubin-plugin-dgx-events.db"
+  }
+}

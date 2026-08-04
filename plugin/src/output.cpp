@@ -4,7 +4,7 @@
 void OUTPUT::initialize()
 {
     if (initialized) return;
-    std::string file_name = CGSim::get_site_manager()->Custom_Parameters.at("output_file");
+    std::string file_name = platform->get_property("output_file");
     if (std::filesystem::exists(file_name)) std::filesystem::remove(file_name);
 
     if (sqlite3_open(file_name.c_str(), &db) != SQLITE_OK) {
@@ -417,4 +417,3 @@ double OUTPUT::calculate_site_storage_util(const std::string& site_name)
     double remaining_storage = CGSim::get_file_manager()->request_remaining_site_storage(site_name);
     return (1.0-remaining_storage/total_storage);
 }
-

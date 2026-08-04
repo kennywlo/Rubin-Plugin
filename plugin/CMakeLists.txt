@@ -20,10 +20,15 @@ find_package(SimGrid REQUIRED)
 find_package(Boost REQUIRED)
 find_package(CGSim REQUIRED)
 find_package(SQLite3   REQUIRED)
+find_path(NLOHMANN_JSON_INCLUDE_DIR nlohmann/json.hpp)
+
+if(NOT NLOHMANN_JSON_INCLUDE_DIR)
+    message(FATAL_ERROR
+        "nlohmann/json.hpp was not found; set NLOHMANN_JSON_INCLUDE_DIR")
+endif()
 
 
 #Link libraries and Include Directories
 target_link_libraries ( RubinPlugin PUBLIC ${SimGrid_LIBRARY} ${Boost_LIBRARIES} CGSim::CGSim SQLite::SQLite3)
-target_include_directories( RubinPlugin PUBLIC ${SimGrid_INCLUDE_DIR} ${CGSim_INCLUDE_DIR} ${Boost_INCLUDE_DIR})
-
+target_include_directories( RubinPlugin PUBLIC ${SimGrid_INCLUDE_DIR} ${CGSim_INCLUDE_DIR} ${Boost_INCLUDE_DIR} ${NLOHMANN_JSON_INCLUDE_DIR})
 

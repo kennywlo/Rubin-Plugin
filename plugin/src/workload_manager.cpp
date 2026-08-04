@@ -1,7 +1,8 @@
 #include "workload_manager.h"
 
 JobQueue WORKLOAD_MANAGER::getWorkload() {
-  const std::string& path = CGSim::get_site_manager()->Custom_Parameters.at("jobs_file");
+    auto* platform = simgrid::s4u::Engine::get_instance()->get_netzone_root();
+    const std::string path = platform->get_property("jobs_file");
     json data; std::ifstream(path) >> data;
     JobQueue jobs;
 
@@ -30,5 +31,4 @@ JobQueue WORKLOAD_MANAGER::getWorkload() {
     }
     return jobs;
 }
-
 
