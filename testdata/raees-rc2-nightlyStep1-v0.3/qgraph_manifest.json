@@ -77,5 +77,9 @@
       "label": "transformPreSourceTable",
       "resource_key": "transformPreSourceTable:HSC"
     }
-  ]
+  ],
+  "workflow_delta": {
+    "note": "This bundle contains the quantum graph only. In production, BPS brackets every workflow with two synthetic jobs not present here: pipetaskInit (runs first; writes init-outputs; every quantum depends on it) and finalJob (runs last; depends on every quantum; performs the final Butler merge/transfer). A converter targeting production-like workflow shape should synthesize both: pipetaskInit as parent of all root quanta (cost ~seconds), finalJob as child of all leaf quanta (cost ~ total output bytes / site transfer bandwidth; sum of output bytes_est in this bundle ~= 12 GB).",
+    "source": "Zhaoyu (Rubin facilities operations), 2026-08-05"
+  }
 }
