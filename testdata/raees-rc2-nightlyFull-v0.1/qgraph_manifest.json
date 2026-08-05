@@ -1,0 +1,493 @@
+{
+  "counts": {
+    "dataset_types": 332,
+    "edges": 12976,
+    "quanta": 3512,
+    "tasks": 42
+  },
+  "edges_file": "edges.jsonl",
+  "provenance": {
+    "butler_config": "/pscratch/sd/k/kennylo/cgsim-rubin/SMALL_HSC_run/butler.yaml",
+    "butler_repo": "/pscratch/sd/k/kennylo/cgsim-rubin/SMALL_HSC_run",
+    "exported_at": "2026-08-05T20:01:02.904295+00:00",
+    "instrument": "HSC",
+    "pinned": {
+      "ctrl_bps": "ge3e32f3943+dd41cd23f8",
+      "drp_pipe": "gc6b104cb6d+dad5072d3c",
+      "lsst_distrib": "g00e868bf88+c1824e70d0",
+      "lsst_release": "w_2026_31",
+      "obs_subaru": "g4db92921ce+973196f922",
+      "pipe_base": "g954f02917a+aa127417cf"
+    },
+    "qgraph_path": "/pscratch/sd/k/kennylo/cgsim-rubin/artifacts/central_six_nightly_full_9813.qgraph",
+    "qgraph_uuid": "1785960019.6541924-1868302",
+    "rc2_subset_commit": "432ea10",
+    "sanitized": false
+  },
+  "quanta_file": "quanta.jsonl",
+  "schema_version": "0.2",
+  "tasks": [
+    {
+      "class": "lsst.drp.tasks.assemble_coadd.CompareWarpAssembleCoaddTask",
+      "dimensions": [
+        "band",
+        "patch",
+        "skymap",
+        "tract"
+      ],
+      "label": "assembleCoadd",
+      "resource_key": "assembleCoadd:HSC"
+    },
+    {
+      "class": "lsst.analysis.tools.tasks.refCatSourceAnalysis.RefCatSourceAnalysisTask",
+      "dimensions": [
+        "band",
+        "instrument",
+        "physical_filter",
+        "visit",
+        "visit_system"
+      ],
+      "label": "astrometricRefCatSourceVisit",
+      "resource_key": "astrometricRefCatSourceVisit:HSC"
+    },
+    {
+      "class": "lsst.pipe.tasks.calibrateImage.CalibrateImageTask",
+      "dimensions": [
+        "band",
+        "detector",
+        "instrument",
+        "physical_filter",
+        "visit",
+        "visit_system"
+      ],
+      "label": "calibrateImage",
+      "resource_key": "calibrateImage:HSC"
+    },
+    {
+      "class": "lsst.analysis.tools.tasks.astrometricCatalogMatch.AstrometricCatalogMatchVisitTask",
+      "dimensions": [
+        "band",
+        "instrument",
+        "physical_filter",
+        "visit",
+        "visit_system"
+      ],
+      "label": "catalogMatchVisit",
+      "resource_key": "catalogMatchVisit:HSC"
+    },
+    {
+      "class": "lsst.drp.tasks.compute_object_epochs.ComputeObjectEpochsTask",
+      "dimensions": [
+        "patch",
+        "skymap",
+        "tract"
+      ],
+      "label": "computeObjectEpochs",
+      "resource_key": "computeObjectEpochs:HSC"
+    },
+    {
+      "class": "lsst.pipe.tasks.finalizeCharacterization.ConsolidateFinalizeCharacterizationDetectorTask",
+      "dimensions": [
+        "band",
+        "instrument",
+        "physical_filter",
+        "visit",
+        "visit_system"
+      ],
+      "label": "consolidateFinalizeCharacterization",
+      "resource_key": "consolidateFinalizeCharacterization:HSC"
+    },
+    {
+      "class": "lsst.pipe.tasks.postprocess.ConsolidateObjectTableTask",
+      "dimensions": [
+        "skymap",
+        "tract"
+      ],
+      "label": "consolidateObjectTable",
+      "resource_key": "consolidateObjectTable:HSC"
+    },
+    {
+      "class": "lsst.pipe.tasks.postprocess.ConsolidateParentTractTask",
+      "dimensions": [
+        "instrument",
+        "skymap",
+        "tract"
+      ],
+      "label": "consolidateParentTable",
+      "resource_key": "consolidateParentTable:HSC"
+    },
+    {
+      "class": "lsst.pipe.tasks.postprocess.ConsolidateSourceTableTask",
+      "dimensions": [
+        "band",
+        "instrument",
+        "physical_filter",
+        "visit",
+        "visit_system"
+      ],
+      "label": "consolidatePreSourceTable",
+      "resource_key": "consolidatePreSourceTable:HSC"
+    },
+    {
+      "class": "lsst.pipe.tasks.postprocess.ConsolidateSourceTableTask",
+      "dimensions": [
+        "band",
+        "instrument",
+        "physical_filter",
+        "visit",
+        "visit_system"
+      ],
+      "label": "consolidateSourceTable",
+      "resource_key": "consolidateSourceTable:HSC"
+    },
+    {
+      "class": "lsst.pipe.tasks.postprocess.ConsolidateVisitSummaryTask",
+      "dimensions": [
+        "band",
+        "instrument",
+        "physical_filter",
+        "visit",
+        "visit_system"
+      ],
+      "label": "consolidateVisitSummary",
+      "resource_key": "consolidateVisitSummary:HSC"
+    },
+    {
+      "class": "lsst.pipe.tasks.deblendCoaddSourcesPipeline.DeblendCoaddSourcesMultiTask",
+      "dimensions": [
+        "patch",
+        "skymap",
+        "tract"
+      ],
+      "label": "deblend",
+      "resource_key": "deblend:HSC"
+    },
+    {
+      "class": "lsst.meas.extensions.scarlet.deconvolveExposureTask.DeconvolveExposureTask",
+      "dimensions": [
+        "band",
+        "patch",
+        "skymap",
+        "tract"
+      ],
+      "label": "deconvolve",
+      "resource_key": "deconvolve:HSC"
+    },
+    {
+      "class": "lsst.pipe.tasks.multiBand.DetectCoaddSourcesTask",
+      "dimensions": [
+        "band",
+        "patch",
+        "skymap",
+        "tract"
+      ],
+      "label": "detection",
+      "resource_key": "detection:HSC"
+    },
+    {
+      "class": "lsst.fgcmcal.fgcmBuildFromIsolatedStars.FgcmBuildFromIsolatedStarsTask",
+      "dimensions": [
+        "instrument"
+      ],
+      "label": "fgcmBuildFromIsolatedStars",
+      "resource_key": "fgcmBuildFromIsolatedStars:HSC"
+    },
+    {
+      "class": "lsst.fgcmcal.fgcmFitCycle.FgcmFitCycleTask",
+      "dimensions": [
+        "instrument"
+      ],
+      "label": "fgcmFitCycle",
+      "resource_key": "fgcmFitCycle:HSC"
+    },
+    {
+      "class": "lsst.fgcmcal.fgcmOutputProducts.FgcmOutputProductsTask",
+      "dimensions": [
+        "instrument"
+      ],
+      "label": "fgcmOutputProducts",
+      "resource_key": "fgcmOutputProducts:HSC"
+    },
+    {
+      "class": "lsst.pipe.tasks.finalizeCharacterization.FinalizeCharacterizationDetectorTask",
+      "dimensions": [
+        "band",
+        "detector",
+        "instrument",
+        "physical_filter",
+        "visit",
+        "visit_system"
+      ],
+      "label": "finalizeCharacterizationDetector",
+      "resource_key": "finalizeCharacterizationDetector:HSC"
+    },
+    {
+      "class": "lsst.meas.extensions.multiprofit.pipetasks_fit.MultiProFitCoaddExpFitTask",
+      "dimensions": [
+        "patch",
+        "skymap",
+        "tract"
+      ],
+      "label": "fitDeblendedObjectsExp",
+      "resource_key": "fitDeblendedObjectsExp:HSC"
+    },
+    {
+      "class": "lsst.meas.extensions.multiprofit.pipetasks_fit.MultiProFitCoaddSersicFitTask",
+      "dimensions": [
+        "patch",
+        "skymap",
+        "tract"
+      ],
+      "label": "fitDeblendedObjectsSersic",
+      "resource_key": "fitDeblendedObjectsSersic:HSC"
+    },
+    {
+      "class": "lsst.meas.extensions.multiprofit.pipetasks_fit.MultiProFitCoaddPsfFitTask",
+      "dimensions": [
+        "band",
+        "patch",
+        "skymap",
+        "tract"
+      ],
+      "label": "fitDeepCoaddPsfGaussians",
+      "resource_key": "fitDeepCoaddPsfGaussians:HSC"
+    },
+    {
+      "class": "lsst.drp.tasks.forcedPhotCoadd.ForcedPhotCoaddTask",
+      "dimensions": [
+        "band",
+        "patch",
+        "skymap",
+        "tract"
+      ],
+      "label": "forcedPhotCoadd",
+      "resource_key": "forcedPhotCoadd:HSC"
+    },
+    {
+      "class": "lsst.drp.tasks.gbdesAstrometricFit.GbdesAstrometricFitTask",
+      "dimensions": [
+        "band",
+        "instrument",
+        "physical_filter",
+        "skymap",
+        "tract"
+      ],
+      "label": "gbdesAstrometricFit",
+      "resource_key": "gbdesAstrometricFit:HSC"
+    },
+    {
+      "class": "lsst.pipe.tasks.healSparseMapping.HealSparsePropertyMapTask",
+      "dimensions": [
+        "band",
+        "skymap",
+        "tract"
+      ],
+      "label": "healSparsePropertyMaps",
+      "resource_key": "healSparsePropertyMaps:HSC"
+    },
+    {
+      "class": "lsst.pipe.tasks.isolatedStarAssociation.IsolatedStarAssociationTask",
+      "dimensions": [
+        "instrument",
+        "skymap",
+        "tract"
+      ],
+      "label": "isolatedStarAssociation",
+      "resource_key": "isolatedStarAssociation:HSC"
+    },
+    {
+      "class": "lsst.ip.isr.isrTask.IsrTask",
+      "dimensions": [
+        "band",
+        "detector",
+        "exposure",
+        "instrument",
+        "physical_filter"
+      ],
+      "label": "isr",
+      "resource_key": "isr:HSC"
+    },
+    {
+      "class": "lsst.pipe.tasks.postprocess.MakeCcdVisitTableTask",
+      "dimensions": [
+        "instrument"
+      ],
+      "label": "makeCcdVisitTable",
+      "resource_key": "makeCcdVisitTable:HSC"
+    },
+    {
+      "class": "lsst.drp.tasks.make_direct_warp.MakeDirectWarpTask",
+      "dimensions": [
+        "band",
+        "instrument",
+        "patch",
+        "physical_filter",
+        "skymap",
+        "tract",
+        "visit",
+        "visit_system"
+      ],
+      "label": "makeDirectWarp",
+      "resource_key": "makeDirectWarp:HSC"
+    },
+    {
+      "class": "lsst.drp.tasks.make_psf_matched_warp.MakePsfMatchedWarpTask",
+      "dimensions": [
+        "band",
+        "instrument",
+        "patch",
+        "physical_filter",
+        "skymap",
+        "tract",
+        "visit",
+        "visit_system"
+      ],
+      "label": "makePsfMatchedWarp",
+      "resource_key": "makePsfMatchedWarp:HSC"
+    },
+    {
+      "class": "lsst.pipe.tasks.postprocess.MakeVisitTableTask",
+      "dimensions": [
+        "instrument"
+      ],
+      "label": "makeVisitTable",
+      "resource_key": "makeVisitTable:HSC"
+    },
+    {
+      "class": "lsst.pipe.tasks.multiBand.MeasureMergedCoaddSourcesTask",
+      "dimensions": [
+        "band",
+        "patch",
+        "skymap",
+        "tract"
+      ],
+      "label": "measure",
+      "resource_key": "measure:HSC"
+    },
+    {
+      "class": "lsst.pipe.tasks.mergeDetections.MergeDetectionsTask",
+      "dimensions": [
+        "patch",
+        "skymap",
+        "tract"
+      ],
+      "label": "mergeDetections",
+      "resource_key": "mergeDetections:HSC"
+    },
+    {
+      "class": "lsst.pipe.tasks.mergeMeasurements.MergeMeasurementsTask",
+      "dimensions": [
+        "patch",
+        "skymap",
+        "tract"
+      ],
+      "label": "mergeMeasurements",
+      "resource_key": "mergeMeasurements:HSC"
+    },
+    {
+      "class": "lsst.pipe.tasks.selectImages.BestSeeingSelectVisitsTask",
+      "dimensions": [
+        "band",
+        "instrument",
+        "patch",
+        "skymap",
+        "tract"
+      ],
+      "label": "selectDeepCoaddVisits",
+      "resource_key": "selectDeepCoaddVisits:HSC"
+    },
+    {
+      "class": "lsst.pipe.tasks.skyCorrection.SkyCorrectionTask",
+      "dimensions": [
+        "band",
+        "instrument",
+        "physical_filter",
+        "visit",
+        "visit_system"
+      ],
+      "label": "skyCorr",
+      "resource_key": "skyCorr:HSC"
+    },
+    {
+      "class": "lsst.pipe.tasks.split_primary.SplitPrimaryTask",
+      "dimensions": [
+        "skymap",
+        "tract"
+      ],
+      "label": "splitPrimaryObject",
+      "resource_key": "splitPrimaryObject:HSC"
+    },
+    {
+      "class": "lsst.pipe.tasks.postprocess.TransformObjectCatalogTask",
+      "dimensions": [
+        "patch",
+        "skymap",
+        "tract"
+      ],
+      "label": "transformObjectTable",
+      "resource_key": "transformObjectTable:HSC"
+    },
+    {
+      "class": "lsst.pipe.tasks.postprocess.TransformSourceTableTask",
+      "dimensions": [
+        "band",
+        "detector",
+        "instrument",
+        "physical_filter",
+        "visit",
+        "visit_system"
+      ],
+      "label": "transformPreSourceTable",
+      "resource_key": "transformPreSourceTable:HSC"
+    },
+    {
+      "class": "lsst.pipe.tasks.postprocess.TransformSourceTableTask",
+      "dimensions": [
+        "band",
+        "detector",
+        "instrument",
+        "physical_filter",
+        "visit",
+        "visit_system"
+      ],
+      "label": "transformSourceTable",
+      "resource_key": "transformSourceTable:HSC"
+    },
+    {
+      "class": "lsst.drp.tasks.update_visit_summary.UpdateVisitSummaryTask",
+      "dimensions": [
+        "band",
+        "instrument",
+        "physical_filter",
+        "visit",
+        "visit_system"
+      ],
+      "label": "updateVisitSummary",
+      "resource_key": "updateVisitSummary:HSC"
+    },
+    {
+      "class": "lsst.pipe.tasks.postprocess.WriteObjectTableTask",
+      "dimensions": [
+        "patch",
+        "skymap",
+        "tract"
+      ],
+      "label": "writeObjectTable",
+      "resource_key": "writeObjectTable:HSC"
+    },
+    {
+      "class": "lsst.pipe.tasks.postprocess.WriteRecalibratedSourceTableTask",
+      "dimensions": [
+        "band",
+        "detector",
+        "instrument",
+        "physical_filter",
+        "skymap",
+        "visit",
+        "visit_system"
+      ],
+      "label": "writeRecalibratedSourceTable",
+      "resource_key": "writeRecalibratedSourceTable:HSC"
+    }
+  ]
+}
