@@ -27,11 +27,16 @@ CHAIN=u/kennylo/cgsim/nfull
 #   2. `pipetask run -g <graph>` (no -p) does not accept `-c` config
 #      overrides -- LookupError: no task labeled X in the pipeline (job
 #      56399982). Config must be baked in at qgraph-build time instead.
-# _cfg2: added a THIRD QA override after cfg's first attempt still failed --
-# patch 52 also trips TooManyMaskedPixelsError (detection.minGoodPixelFraction
-# default 0.005 vs measured 0.0037 good-pixel fraction) even before reaching
-# the scaleVariance/minFractionSources checks patched earlier.
-GRAPH=$BASE/artifacts/central_six_nightly_full_resume53_cfg2.qgraph
+# _cfg2 (3 QA overrides) still failed: patch 52/g-band hits ZeroFootprintError
+# -- genuinely zero detectable sources in that region (0.37% good pixels), a
+# physical data floor, not a threshold to relax. _cfg3 excludes that one
+# (patch, band) combination from the query (`NOT (patch = 52 AND band = 'g')`)
+# instead. The graph builder then gracefully drops the 11 task types that were
+# ONLY blocked on it (measure, forcedPhotCoadd, deblend, etc. -- 53->40
+# quanta) while the true tract-wide consolidations (computeObjectEpochs,
+# transformObjectTable, consolidateObjectTable, splitPrimaryObject, ...)
+# remain buildable, proceeding without that one patch/band's contribution.
+GRAPH=$BASE/artifacts/central_six_nightly_full_resume53_cfg3.qgraph
 
 echo "=== executing pre-built, config-baked 53-quantum resume graph $(date) ==="
 if ! pipetask run -b "$REPO" -g "$GRAPH" -o "$CHAIN" -j 16 \
