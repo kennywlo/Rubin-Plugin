@@ -27,7 +27,11 @@ CHAIN=u/kennylo/cgsim/nfull
 #   2. `pipetask run -g <graph>` (no -p) does not accept `-c` config
 #      overrides -- LookupError: no task labeled X in the pipeline (job
 #      56399982). Config must be baked in at qgraph-build time instead.
-GRAPH=$BASE/artifacts/central_six_nightly_full_resume53_cfg.qgraph
+# _cfg2: added a THIRD QA override after cfg's first attempt still failed --
+# patch 52 also trips TooManyMaskedPixelsError (detection.minGoodPixelFraction
+# default 0.005 vs measured 0.0037 good-pixel fraction) even before reaching
+# the scaleVariance/minFractionSources checks patched earlier.
+GRAPH=$BASE/artifacts/central_six_nightly_full_resume53_cfg2.qgraph
 
 echo "=== executing pre-built, config-baked 53-quantum resume graph $(date) ==="
 if ! pipetask run -b "$REPO" -g "$GRAPH" -o "$CHAIN" -j 16 \
