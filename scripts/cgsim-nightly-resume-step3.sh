@@ -38,12 +38,21 @@ QUERY="detector in (58, 50, 42, 47, 49, 41) AND visit in (29336, 11690, 11698, 2
 # label). This intentionally trades photometric validity in these 2 patches
 # for full quantum-graph coverage -- fine for a cost/topology bundle, not for
 # science use.
+#
+# NOTE: cannot --extend-run here -- the prior nightlyStep3 run in $CHAIN
+# already registered detection's config with the DEFAULT thresholds, and the
+# Butler enforces one consistent task config per run collection
+# (ConflictingDefinitionError otherwise). So this pass writes a NEW run into
+# the chain instead, using --skip-existing-in "$CHAIN" (not the bare
+# --skip-existing self-reference, which would only compare against this new,
+# initially-empty run) so every already-completed quantum across all prior
+# runs in the chain is still recognized and skipped.
 CFG="-c detection:scaleVariance.limit=1000 -c detection:detection.minFractionSources=0.005"
 
-echo "=== resuming nightlyStep3, extending run, clobbering partial outputs, relaxed QA $(date) ==="
+echo "=== resuming nightlyStep3 in a new run, relaxed QA $(date) ==="
 if ! pipetask run -b "$REPO" -i HSC/RC2_subset/defaults -o "$CHAIN" \
         -p "$PIPE#nightlyStep3" -d "$QUERY" -j 32 $CFG \
-        --register-dataset-types --extend-run --skip-existing --clobber-outputs; then
+        --register-dataset-types --skip-existing-in "$CHAIN"; then
     echo "=== -j32 resume failed; retrying serially ==="
     pipetask run -b "$REPO" -i HSC/RC2_subset/defaults -o "$CHAIN" \
         -p "$PIPE#nightlyStep3" -d "$QUERY" -j 1 $CFG \
