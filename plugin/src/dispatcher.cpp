@@ -9,9 +9,8 @@ double DISPATCHER::storage_needed(std::unordered_map<std::string, long long>& fi
 }
 
 void DISPATCHER::findBestSite(Job* j)
-{
-  
-  const auto& files = j->input_files_sizes_locations;
+{ 
+  /*const auto& files = j->input_files_sizes_locations;
   const auto needed = storage_needed(j->output_files);
   
     std::unordered_map<std::string, std::size_t> counts;
@@ -23,8 +22,9 @@ void DISPATCHER::findBestSite(Job* j)
         if (CGSim::get_file_manager()->request_remaining_site_storage(best->first) >= needed)
 	  {j->comp_site = best->first; return;}
         counts.erase(best);
-      }
+      }*/
     
+    j->comp_site = "Site0";
     return;
 }
 

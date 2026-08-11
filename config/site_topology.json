@@ -1,19 +1,21 @@
 {
-  "Site0": {
-    "SITE_PROPERTIES": {
-      "storage_capacity_bytes": "20000000000000",
-      "file_count": "4"
+  "Site0": 
+  {
+    "SITE_PROPERTIES": 
+    {
+      "storage_capacity_bytes": "20000000000000000"
     },
-    "CPUInfo": [
+    "CPUInfo": 
+    [
       {
-        "units": 1,
+        "units": 100,
         "speed": 20000000.0,
         "cores": 20,
         "BW_CPU": "2817GBps",
         "LAT_CPU": "88ns",
         "properties": [
           {
-            "ram": "4096GB"
+            "ram": "64GB"
           }
         ],
         "disks": [
@@ -21,33 +23,18 @@
             "name": "SITE0_C0_CALIBDISK",
             "read_bw": "4750MBps",
             "write_bw": "1581MBps"
-          },
-          {
-            "name": "SITE0_C0_DATADISK",
-            "read_bw": "2187MBps",
-            "write_bw": "3175MBps"
-          },
-          {
-            "name": "SITE0_C0_LOCALGROUPDISK",
-            "read_bw": "3783MBps",
-            "write_bw": "2471MBps"
-          },
-          {
-            "name": "SITE0_C0_SCRATCHDISK",
-            "read_bw": "1460MBps",
-            "write_bw": "4286MBps"
           }
         ]
       },
       {
-        "units": 1,
+        "units": 1000,
         "speed": 24000000.0,
         "cores": 28,
         "BW_CPU": "2576GBps",
         "LAT_CPU": "44ns",
         "properties": [
           {
-            "ram": "4096GB"
+            "ram": "64GB"
           }
         ],
         "disks": [
@@ -55,418 +42,10 @@
             "name": "SITE0_C1_CALIBDISK",
             "read_bw": "3886MBps",
             "write_bw": "2531MBps"
-          },
-          {
-            "name": "SITE0_C1_DATADISK",
-            "read_bw": "3979MBps",
-            "write_bw": "2352MBps"
-          },
-          {
-            "name": "SITE0_C1_LOCALGROUPDISK",
-            "read_bw": "4105MBps",
-            "write_bw": "4461MBps"
-          },
-          {
-            "name": "SITE0_C1_SCRATCHDISK",
-            "read_bw": "4397MBps",
-            "write_bw": "2140MBps"
           }
         ]
       }
     ],
-    "files": [
-      [
-        "raw_visit_10000_detector_0.fits",
-        5616605411
-      ],
-      [
-        "raw_visit_10005_detector_5.fits",
-        5869574465
-      ],
-      [
-        "raw_visit_10010_detector_10.fits",
-        7529220083
-      ],
-      [
-        "raw_visit_10015_detector_15.fits",
-        7459573630
-      ]
-    ]
-  },
-  "Site1": {
-    "SITE_PROPERTIES": {
-      "storage_capacity_bytes": "20000000000000",
-      "file_count": "4"
-    },
-    "CPUInfo": [
-      {
-        "units": 1,
-        "speed": 24000000.0,
-        "cores": 24,
-        "BW_CPU": "3443GBps",
-        "LAT_CPU": "46ns",
-        "properties": [
-          {
-            "ram": "4096GB"
-          }
-        ],
-        "disks": [
-          {
-            "name": "SITE1_C0_CALIBDISK",
-            "read_bw": "2724MBps",
-            "write_bw": "3390MBps"
-          },
-          {
-            "name": "SITE1_C0_DATADISK",
-            "read_bw": "3697MBps",
-            "write_bw": "4440MBps"
-          },
-          {
-            "name": "SITE1_C0_LOCALGROUPDISK",
-            "read_bw": "1274MBps",
-            "write_bw": "3299MBps"
-          },
-          {
-            "name": "SITE1_C0_SCRATCHDISK",
-            "read_bw": "3739MBps",
-            "write_bw": "3817MBps"
-          }
-        ]
-      },
-      {
-        "units": 1,
-        "speed": 28000000.0,
-        "cores": 32,
-        "BW_CPU": "3485GBps",
-        "LAT_CPU": "44ns",
-        "properties": [
-          {
-            "ram": "4096GB"
-          }
-        ],
-        "disks": [
-          {
-            "name": "SITE1_C1_CALIBDISK",
-            "read_bw": "3904MBps",
-            "write_bw": "2737MBps"
-          },
-          {
-            "name": "SITE1_C1_DATADISK",
-            "read_bw": "3112MBps",
-            "write_bw": "3179MBps"
-          },
-          {
-            "name": "SITE1_C1_LOCALGROUPDISK",
-            "read_bw": "2146MBps",
-            "write_bw": "1247MBps"
-          },
-          {
-            "name": "SITE1_C1_SCRATCHDISK",
-            "read_bw": "4313MBps",
-            "write_bw": "1500MBps"
-          }
-        ]
-      }
-    ],
-    "files": [
-      [
-        "raw_visit_10001_detector_1.fits",
-        7792141247
-      ],
-      [
-        "raw_visit_10006_detector_6.fits",
-        5173204988
-      ],
-      [
-        "raw_visit_10011_detector_11.fits",
-        6859430096
-      ],
-      [
-        "raw_visit_10016_detector_16.fits",
-        6697503039
-      ]
-    ]
-  },
-  "Site2": {
-    "SITE_PROPERTIES": {
-      "storage_capacity_bytes": "20000000000000",
-      "file_count": "4"
-    },
-    "CPUInfo": [
-      {
-        "units": 1,
-        "speed": 28000000.0,
-        "cores": 28,
-        "BW_CPU": "2325GBps",
-        "LAT_CPU": "90ns",
-        "properties": [
-          {
-            "ram": "2048GB"
-          }
-        ],
-        "disks": [
-          {
-            "name": "SITE2_C0_CALIBDISK",
-            "read_bw": "3404MBps",
-            "write_bw": "3787MBps"
-          },
-          {
-            "name": "SITE2_C0_DATADISK",
-            "read_bw": "3919MBps",
-            "write_bw": "3014MBps"
-          },
-          {
-            "name": "SITE2_C0_LOCALGROUPDISK",
-            "read_bw": "1868MBps",
-            "write_bw": "3152MBps"
-          },
-          {
-            "name": "SITE2_C0_SCRATCHDISK",
-            "read_bw": "4113MBps",
-            "write_bw": "3415MBps"
-          }
-        ]
-      },
-      {
-        "units": 1,
-        "speed": 32000000.0,
-        "cores": 36,
-        "BW_CPU": "2345GBps",
-        "LAT_CPU": "48ns",
-        "properties": [
-          {
-            "ram": "2048GB"
-          }
-        ],
-        "disks": [
-          {
-            "name": "SITE2_C1_CALIBDISK",
-            "read_bw": "3545MBps",
-            "write_bw": "4348MBps"
-          },
-          {
-            "name": "SITE2_C1_DATADISK",
-            "read_bw": "3983MBps",
-            "write_bw": "1812MBps"
-          },
-          {
-            "name": "SITE2_C1_LOCALGROUPDISK",
-            "read_bw": "1498MBps",
-            "write_bw": "2025MBps"
-          },
-          {
-            "name": "SITE2_C1_SCRATCHDISK",
-            "read_bw": "4744MBps",
-            "write_bw": "1302MBps"
-          }
-        ]
-      }
-    ],
-    "files": [
-      [
-        "raw_visit_10002_detector_2.fits",
-        7121686437
-      ],
-      [
-        "raw_visit_10007_detector_7.fits",
-        5337724666
-      ],
-      [
-        "raw_visit_10012_detector_12.fits",
-        6740591515
-      ],
-      [
-        "raw_visit_10017_detector_17.fits",
-        7534113004
-      ]
-    ]
-  },
-  "Site3": {
-    "SITE_PROPERTIES": {
-      "storage_capacity_bytes": "20000000000000",
-      "file_count": "4"
-    },
-    "CPUInfo": [
-      {
-        "units": 1,
-        "speed": 32000000.0,
-        "cores": 32,
-        "BW_CPU": "2356GBps",
-        "LAT_CPU": "72ns",
-        "properties": [
-          {
-            "ram": "4096GB"
-          }
-        ],
-        "disks": [
-          {
-            "name": "SITE3_C0_CALIBDISK",
-            "read_bw": "2782MBps",
-            "write_bw": "2744MBps"
-          },
-          {
-            "name": "SITE3_C0_DATADISK",
-            "read_bw": "3443MBps",
-            "write_bw": "4075MBps"
-          },
-          {
-            "name": "SITE3_C0_LOCALGROUPDISK",
-            "read_bw": "4640MBps",
-            "write_bw": "3134MBps"
-          },
-          {
-            "name": "SITE3_C0_SCRATCHDISK",
-            "read_bw": "4379MBps",
-            "write_bw": "3127MBps"
-          }
-        ]
-      },
-      {
-        "units": 1,
-        "speed": 36000000.0,
-        "cores": 40,
-        "BW_CPU": "2619GBps",
-        "LAT_CPU": "85ns",
-        "properties": [
-          {
-            "ram": "4096GB"
-          }
-        ],
-        "disks": [
-          {
-            "name": "SITE3_C1_CALIBDISK",
-            "read_bw": "2405MBps",
-            "write_bw": "2958MBps"
-          },
-          {
-            "name": "SITE3_C1_DATADISK",
-            "read_bw": "2905MBps",
-            "write_bw": "4239MBps"
-          },
-          {
-            "name": "SITE3_C1_LOCALGROUPDISK",
-            "read_bw": "1247MBps",
-            "write_bw": "1971MBps"
-          },
-          {
-            "name": "SITE3_C1_SCRATCHDISK",
-            "read_bw": "1491MBps",
-            "write_bw": "2965MBps"
-          }
-        ]
-      }
-    ],
-    "files": [
-      [
-        "raw_visit_10003_detector_3.fits",
-        5567914809
-      ],
-      [
-        "raw_visit_10008_detector_8.fits",
-        7300399436
-      ],
-      [
-        "raw_visit_10013_detector_13.fits",
-        5238674104
-      ],
-      [
-        "raw_visit_10018_detector_18.fits",
-        6085217604
-      ]
-    ]
-  },
-  "Site4": {
-    "SITE_PROPERTIES": {
-      "storage_capacity_bytes": "20000000000000",
-      "file_count": "4"
-    },
-    "CPUInfo": [
-      {
-        "units": 1,
-        "speed": 36000000.0,
-        "cores": 36,
-        "BW_CPU": "3207GBps",
-        "LAT_CPU": "82ns",
-        "properties": [
-          {
-            "ram": "8192GB"
-          }
-        ],
-        "disks": [
-          {
-            "name": "SITE4_C0_CALIBDISK",
-            "read_bw": "1508MBps",
-            "write_bw": "3681MBps"
-          },
-          {
-            "name": "SITE4_C0_DATADISK",
-            "read_bw": "2667MBps",
-            "write_bw": "2950MBps"
-          },
-          {
-            "name": "SITE4_C0_LOCALGROUPDISK",
-            "read_bw": "2731MBps",
-            "write_bw": "2795MBps"
-          },
-          {
-            "name": "SITE4_C0_SCRATCHDISK",
-            "read_bw": "4715MBps",
-            "write_bw": "3857MBps"
-          }
-        ]
-      },
-      {
-        "units": 1,
-        "speed": 40000000.0,
-        "cores": 44,
-        "BW_CPU": "2658GBps",
-        "LAT_CPU": "81ns",
-        "properties": [
-          {
-            "ram": "8192GB"
-          }
-        ],
-        "disks": [
-          {
-            "name": "SITE4_C1_CALIBDISK",
-            "read_bw": "1820MBps",
-            "write_bw": "1449MBps"
-          },
-          {
-            "name": "SITE4_C1_DATADISK",
-            "read_bw": "1491MBps",
-            "write_bw": "4282MBps"
-          },
-          {
-            "name": "SITE4_C1_LOCALGROUPDISK",
-            "read_bw": "2176MBps",
-            "write_bw": "3213MBps"
-          },
-          {
-            "name": "SITE4_C1_SCRATCHDISK",
-            "read_bw": "1628MBps",
-            "write_bw": "3691MBps"
-          }
-        ]
-      }
-    ],
-    "files": [
-      [
-        "raw_visit_10004_detector_4.fits",
-        5768872437
-      ],
-      [
-        "raw_visit_10009_detector_9.fits",
-        7362978273
-      ],
-      [
-        "raw_visit_10014_detector_14.fits",
-        5855384536
-      ],
-      [
-        "raw_visit_10019_detector_19.fits",
-        7232755092
-      ]
-    ]
+    "files": []
   }
 }
