@@ -1,9 +1,9 @@
-#include "DispatcherPlugin.h"
+#include "plugin.h"
 #include "dispatcher.h"
 #include "workload_manager.h"
 #include "output.h"
 
-class RubinPlugin : public DispatcherPlugin {
+class RubinPlugin : public CGSim::Plugin {
 
 public:
     RubinPlugin();
