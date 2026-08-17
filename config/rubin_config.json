@@ -6,7 +6,7 @@
     "Limited_Sites": [],
     "Custom_Parameters":
     {
-	"jobs_file": "/Users/raekhan/Rubin-Plugin/workload/quantum_graph_100_jobs.json",
+	"jobs_file": "../workload/real_quantum_graph.json",
 	"output_file": "../output/events.db"
     }
 }
