@@ -1,0 +1,11 @@
+{
+  "Grid_Name": "GRID",
+  "Sites_Information": "site_topology.json",
+  "Sites_Connection_Information": "site_connections.json",
+  "Dispatcher_Plugin": "../plugin/build-api-cleanup/libRubinPlugin.so",
+  "Limited_Sites": [],
+  "Custom_Parameters": {
+    "jobs_file": "../workload/real_quantum_graph.json",
+    "output_file": "/tmp/rubin-plugin-perlmutter-events.db"
+  }
+}
