@@ -12188,7 +12188,13 @@
         167,
         168
       ],
-      "children": []
+      "children": [
+        {
+          "jobid": 341,
+          "creation_delay": 0,
+          "dataset_type": "isolated_star_association"
+        }
+      ]
     },
     {
       "jobid": 340,
@@ -12227,6 +12233,133 @@
         334,
         335,
         336
+      ],
+      "children": [
+        {
+          "jobid": 342,
+          "creation_delay": 0,
+          "dataset_type": "isolated_star_association"
+        }
+      ]
+    },
+    {
+      "jobid": 341,
+      "task": "analyzeSingleVisitStarAssociation",
+      "resource_key": "analyzeSingleVisitStarAssociation:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 0
+      },
+      "cores": 1,
+      "flops": 2000000000,
+      "creation_time": null,
+      "input_files": [
+        "isolated_star_association_q339.dat"
+      ],
+      "input_file_sizes": {
+        "isolated_star_association_q339.dat": 10000000
+      },
+      "output_files": {
+        "qa_metrics_q341.dat": 500000,
+        "qa_plot_bundle_q341.dat": 30000000
+      },
+      "parents": [
+        339
+      ],
+      "children": [
+        {
+          "jobid": 343,
+          "creation_delay": 0,
+          "dataset_type": "qa_metrics"
+        }
+      ]
+    },
+    {
+      "jobid": 342,
+      "task": "analyzeSingleVisitStarAssociation",
+      "resource_key": "analyzeSingleVisitStarAssociation:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 1
+      },
+      "cores": 1,
+      "flops": 2000000000,
+      "creation_time": null,
+      "input_files": [
+        "isolated_star_association_q340.dat"
+      ],
+      "input_file_sizes": {
+        "isolated_star_association_q340.dat": 10000000
+      },
+      "output_files": {
+        "qa_metrics_q342.dat": 500000,
+        "qa_plot_bundle_q342.dat": 30000000
+      },
+      "parents": [
+        340
+      ],
+      "children": [
+        {
+          "jobid": 343,
+          "creation_delay": 0,
+          "dataset_type": "qa_metrics"
+        }
+      ]
+    },
+    {
+      "jobid": 343,
+      "task": "makeAnalysisSingleVisitStarAssociationMetricTable",
+      "resource_key": "makeAnalysisSingleVisitStarAssociationMetricTable:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam"
+      },
+      "cores": 1,
+      "flops": 200000000,
+      "creation_time": null,
+      "input_files": [
+        "qa_metrics_q341.dat",
+        "qa_metrics_q342.dat"
+      ],
+      "input_file_sizes": {
+        "qa_metrics_q341.dat": 500000,
+        "qa_metrics_q342.dat": 500000
+      },
+      "output_files": {
+        "qa_metrics_table_q343.dat": 2000000
+      },
+      "parents": [
+        341,
+        342
+      ],
+      "children": [
+        {
+          "jobid": 344,
+          "creation_delay": 0,
+          "dataset_type": "qa_metrics_table"
+        }
+      ]
+    },
+    {
+      "jobid": 344,
+      "task": "makeAnalysisSingleVisitStarAssociationWholeSkyPlot",
+      "resource_key": "makeAnalysisSingleVisitStarAssociationWholeSkyPlot:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam"
+      },
+      "cores": 1,
+      "flops": 500000000,
+      "creation_time": null,
+      "input_files": [
+        "qa_metrics_table_q343.dat"
+      ],
+      "input_file_sizes": {
+        "qa_metrics_table_q343.dat": 2000000
+      },
+      "output_files": {
+        "qa_plot_bundle_q344.dat": 30000000
+      },
+      "parents": [
+        343
       ],
       "children": []
     }

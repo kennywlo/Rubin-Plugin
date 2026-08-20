@@ -73,6 +73,16 @@
           "jobid": 270,
           "creation_delay": 0,
           "dataset_type": "visit_summary"
+        },
+        {
+          "jobid": 306,
+          "creation_delay": 0,
+          "dataset_type": "visit_summary"
+        },
+        {
+          "jobid": 307,
+          "creation_delay": 0,
+          "dataset_type": "visit_summary"
         }
       ]
     },
@@ -898,7 +908,23 @@
         20,
         21
       ],
-      "children": []
+      "children": [
+        {
+          "jobid": 276,
+          "creation_delay": 0,
+          "dataset_type": "recalibrated_star_final"
+        },
+        {
+          "jobid": 300,
+          "creation_delay": 0,
+          "dataset_type": "recalibrated_star_final"
+        },
+        {
+          "jobid": 301,
+          "creation_delay": 0,
+          "dataset_type": "recalibrated_star_final"
+        }
+      ]
     },
     {
       "jobid": 23,
@@ -971,6 +997,16 @@
         },
         {
           "jobid": 271,
+          "creation_delay": 0,
+          "dataset_type": "visit_summary"
+        },
+        {
+          "jobid": 306,
+          "creation_delay": 0,
+          "dataset_type": "visit_summary"
+        },
+        {
+          "jobid": 307,
           "creation_delay": 0,
           "dataset_type": "visit_summary"
         }
@@ -1798,7 +1834,23 @@
         42,
         43
       ],
-      "children": []
+      "children": [
+        {
+          "jobid": 278,
+          "creation_delay": 0,
+          "dataset_type": "recalibrated_star_final"
+        },
+        {
+          "jobid": 300,
+          "creation_delay": 0,
+          "dataset_type": "recalibrated_star_final"
+        },
+        {
+          "jobid": 301,
+          "creation_delay": 0,
+          "dataset_type": "recalibrated_star_final"
+        }
+      ]
     },
     {
       "jobid": 45,
@@ -1871,6 +1923,16 @@
         },
         {
           "jobid": 272,
+          "creation_delay": 0,
+          "dataset_type": "visit_summary"
+        },
+        {
+          "jobid": 306,
+          "creation_delay": 0,
+          "dataset_type": "visit_summary"
+        },
+        {
+          "jobid": 307,
           "creation_delay": 0,
           "dataset_type": "visit_summary"
         }
@@ -2698,7 +2760,23 @@
         64,
         65
       ],
-      "children": []
+      "children": [
+        {
+          "jobid": 280,
+          "creation_delay": 0,
+          "dataset_type": "recalibrated_star_final"
+        },
+        {
+          "jobid": 300,
+          "creation_delay": 0,
+          "dataset_type": "recalibrated_star_final"
+        },
+        {
+          "jobid": 301,
+          "creation_delay": 0,
+          "dataset_type": "recalibrated_star_final"
+        }
+      ]
     },
     {
       "jobid": 67,
@@ -2771,6 +2849,16 @@
         },
         {
           "jobid": 270,
+          "creation_delay": 0,
+          "dataset_type": "visit_summary"
+        },
+        {
+          "jobid": 306,
+          "creation_delay": 0,
+          "dataset_type": "visit_summary"
+        },
+        {
+          "jobid": 307,
           "creation_delay": 0,
           "dataset_type": "visit_summary"
         }
@@ -3598,7 +3686,23 @@
         86,
         87
       ],
-      "children": []
+      "children": [
+        {
+          "jobid": 282,
+          "creation_delay": 0,
+          "dataset_type": "recalibrated_star_final"
+        },
+        {
+          "jobid": 300,
+          "creation_delay": 0,
+          "dataset_type": "recalibrated_star_final"
+        },
+        {
+          "jobid": 301,
+          "creation_delay": 0,
+          "dataset_type": "recalibrated_star_final"
+        }
+      ]
     },
     {
       "jobid": 89,
@@ -3671,6 +3775,16 @@
         },
         {
           "jobid": 271,
+          "creation_delay": 0,
+          "dataset_type": "visit_summary"
+        },
+        {
+          "jobid": 306,
+          "creation_delay": 0,
+          "dataset_type": "visit_summary"
+        },
+        {
+          "jobid": 307,
           "creation_delay": 0,
           "dataset_type": "visit_summary"
         }
@@ -4498,7 +4612,23 @@
         108,
         109
       ],
-      "children": []
+      "children": [
+        {
+          "jobid": 284,
+          "creation_delay": 0,
+          "dataset_type": "recalibrated_star_final"
+        },
+        {
+          "jobid": 300,
+          "creation_delay": 0,
+          "dataset_type": "recalibrated_star_final"
+        },
+        {
+          "jobid": 301,
+          "creation_delay": 0,
+          "dataset_type": "recalibrated_star_final"
+        }
+      ]
     },
     {
       "jobid": 111,
@@ -4571,6 +4701,16 @@
         },
         {
           "jobid": 272,
+          "creation_delay": 0,
+          "dataset_type": "visit_summary"
+        },
+        {
+          "jobid": 306,
+          "creation_delay": 0,
+          "dataset_type": "visit_summary"
+        },
+        {
+          "jobid": 307,
           "creation_delay": 0,
           "dataset_type": "visit_summary"
         }
@@ -5398,7 +5538,23 @@
         130,
         131
       ],
-      "children": []
+      "children": [
+        {
+          "jobid": 286,
+          "creation_delay": 0,
+          "dataset_type": "recalibrated_star_final"
+        },
+        {
+          "jobid": 300,
+          "creation_delay": 0,
+          "dataset_type": "recalibrated_star_final"
+        },
+        {
+          "jobid": 301,
+          "creation_delay": 0,
+          "dataset_type": "recalibrated_star_final"
+        }
+      ]
     },
     {
       "jobid": 133,
@@ -5471,6 +5627,16 @@
         },
         {
           "jobid": 273,
+          "creation_delay": 0,
+          "dataset_type": "visit_summary"
+        },
+        {
+          "jobid": 306,
+          "creation_delay": 0,
+          "dataset_type": "visit_summary"
+        },
+        {
+          "jobid": 307,
           "creation_delay": 0,
           "dataset_type": "visit_summary"
         }
@@ -6298,7 +6464,23 @@
         152,
         153
       ],
-      "children": []
+      "children": [
+        {
+          "jobid": 288,
+          "creation_delay": 0,
+          "dataset_type": "recalibrated_star_final"
+        },
+        {
+          "jobid": 302,
+          "creation_delay": 0,
+          "dataset_type": "recalibrated_star_final"
+        },
+        {
+          "jobid": 303,
+          "creation_delay": 0,
+          "dataset_type": "recalibrated_star_final"
+        }
+      ]
     },
     {
       "jobid": 155,
@@ -6371,6 +6553,16 @@
         },
         {
           "jobid": 274,
+          "creation_delay": 0,
+          "dataset_type": "visit_summary"
+        },
+        {
+          "jobid": 306,
+          "creation_delay": 0,
+          "dataset_type": "visit_summary"
+        },
+        {
+          "jobid": 307,
           "creation_delay": 0,
           "dataset_type": "visit_summary"
         }
@@ -7198,7 +7390,23 @@
         174,
         175
       ],
-      "children": []
+      "children": [
+        {
+          "jobid": 290,
+          "creation_delay": 0,
+          "dataset_type": "recalibrated_star_final"
+        },
+        {
+          "jobid": 302,
+          "creation_delay": 0,
+          "dataset_type": "recalibrated_star_final"
+        },
+        {
+          "jobid": 303,
+          "creation_delay": 0,
+          "dataset_type": "recalibrated_star_final"
+        }
+      ]
     },
     {
       "jobid": 177,
@@ -7271,6 +7479,16 @@
         },
         {
           "jobid": 275,
+          "creation_delay": 0,
+          "dataset_type": "visit_summary"
+        },
+        {
+          "jobid": 306,
+          "creation_delay": 0,
+          "dataset_type": "visit_summary"
+        },
+        {
+          "jobid": 307,
           "creation_delay": 0,
           "dataset_type": "visit_summary"
         }
@@ -8098,7 +8316,23 @@
         196,
         197
       ],
-      "children": []
+      "children": [
+        {
+          "jobid": 292,
+          "creation_delay": 0,
+          "dataset_type": "recalibrated_star_final"
+        },
+        {
+          "jobid": 302,
+          "creation_delay": 0,
+          "dataset_type": "recalibrated_star_final"
+        },
+        {
+          "jobid": 303,
+          "creation_delay": 0,
+          "dataset_type": "recalibrated_star_final"
+        }
+      ]
     },
     {
       "jobid": 199,
@@ -8171,6 +8405,16 @@
         },
         {
           "jobid": 273,
+          "creation_delay": 0,
+          "dataset_type": "visit_summary"
+        },
+        {
+          "jobid": 306,
+          "creation_delay": 0,
+          "dataset_type": "visit_summary"
+        },
+        {
+          "jobid": 307,
           "creation_delay": 0,
           "dataset_type": "visit_summary"
         }
@@ -8998,7 +9242,23 @@
         218,
         219
       ],
-      "children": []
+      "children": [
+        {
+          "jobid": 294,
+          "creation_delay": 0,
+          "dataset_type": "recalibrated_star_final"
+        },
+        {
+          "jobid": 302,
+          "creation_delay": 0,
+          "dataset_type": "recalibrated_star_final"
+        },
+        {
+          "jobid": 303,
+          "creation_delay": 0,
+          "dataset_type": "recalibrated_star_final"
+        }
+      ]
     },
     {
       "jobid": 221,
@@ -9071,6 +9331,16 @@
         },
         {
           "jobid": 274,
+          "creation_delay": 0,
+          "dataset_type": "visit_summary"
+        },
+        {
+          "jobid": 306,
+          "creation_delay": 0,
+          "dataset_type": "visit_summary"
+        },
+        {
+          "jobid": 307,
           "creation_delay": 0,
           "dataset_type": "visit_summary"
         }
@@ -9898,7 +10168,23 @@
         240,
         241
       ],
-      "children": []
+      "children": [
+        {
+          "jobid": 296,
+          "creation_delay": 0,
+          "dataset_type": "recalibrated_star_final"
+        },
+        {
+          "jobid": 302,
+          "creation_delay": 0,
+          "dataset_type": "recalibrated_star_final"
+        },
+        {
+          "jobid": 303,
+          "creation_delay": 0,
+          "dataset_type": "recalibrated_star_final"
+        }
+      ]
     },
     {
       "jobid": 243,
@@ -9971,6 +10257,16 @@
         },
         {
           "jobid": 275,
+          "creation_delay": 0,
+          "dataset_type": "visit_summary"
+        },
+        {
+          "jobid": 306,
+          "creation_delay": 0,
+          "dataset_type": "visit_summary"
+        },
+        {
+          "jobid": 307,
           "creation_delay": 0,
           "dataset_type": "visit_summary"
         }
@@ -10798,7 +11094,23 @@
         262,
         263
       ],
-      "children": []
+      "children": [
+        {
+          "jobid": 298,
+          "creation_delay": 0,
+          "dataset_type": "recalibrated_star_final"
+        },
+        {
+          "jobid": 302,
+          "creation_delay": 0,
+          "dataset_type": "recalibrated_star_final"
+        },
+        {
+          "jobid": 303,
+          "creation_delay": 0,
+          "dataset_type": "recalibrated_star_final"
+        }
+      ]
     },
     {
       "jobid": 265,
@@ -10881,7 +11193,8 @@
         "fgcm_star_obs_q265.dat": 200000000
       },
       "output_files": {
-        "fgcm_cycle0_q266.dat": 10000000
+        "fgcm_cycle0_q266.dat": 10000000,
+        "qa_plot_bundle_q266.dat": 30000000
       },
       "parents": [
         265
@@ -10912,7 +11225,8 @@
         "fgcm_cycle0_q266.dat": 10000000
       },
       "output_files": {
-        "fgcm_cycle1_q267.dat": 10000000
+        "fgcm_cycle1_q267.dat": 10000000,
+        "qa_plot_bundle_q267.dat": 30000000
       },
       "parents": [
         266
@@ -10943,7 +11257,8 @@
         "fgcm_cycle1_q267.dat": 10000000
       },
       "output_files": {
-        "fgcm_cycle2_q268.dat": 10000000
+        "fgcm_cycle2_q268.dat": 10000000,
+        "qa_plot_bundle_q268.dat": 30000000
       },
       "parents": [
         267
@@ -10973,7 +11288,8 @@
         "fgcm_cycle2_q268.dat": 10000000
       },
       "output_files": {
-        "fgcm_standard_star_q269.dat": 50000000
+        "fgcm_standard_star_q269.dat": 50000000,
+        "qa_plot_bundle_q269.dat": 30000000
       },
       "parents": [
         268
@@ -11150,6 +11466,1047 @@
       },
       "parents": [
         177,
+        243
+      ],
+      "children": []
+    },
+    {
+      "jobid": 276,
+      "task": "makeAnalysisRecalibratedStarAstrometricRefMatch",
+      "resource_key": "makeAnalysisRecalibratedStarAstrometricRefMatch:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "visit": 0,
+        "tract": 0
+      },
+      "cores": 1,
+      "flops": 500000000,
+      "creation_time": null,
+      "input_files": [
+        "recalibrated_star_final_q22.dat"
+      ],
+      "input_file_sizes": {
+        "recalibrated_star_final_q22.dat": 10000000
+      },
+      "output_files": {
+        "ref_match_astrom_q276.dat": 10000000
+      },
+      "parents": [
+        22
+      ],
+      "children": [
+        {
+          "jobid": 277,
+          "creation_delay": 0,
+          "dataset_type": "ref_match_astrom"
+        }
+      ]
+    },
+    {
+      "jobid": 277,
+      "task": "analyzeRecalibratedStarAstrometricRefMatch",
+      "resource_key": "analyzeRecalibratedStarAstrometricRefMatch:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "visit": 0,
+        "tract": 0
+      },
+      "cores": 1,
+      "flops": 500000000,
+      "creation_time": null,
+      "input_files": [
+        "ref_match_astrom_q276.dat"
+      ],
+      "input_file_sizes": {
+        "ref_match_astrom_q276.dat": 10000000
+      },
+      "output_files": {
+        "qa_metrics_q277.dat": 500000
+      },
+      "parents": [
+        276
+      ],
+      "children": []
+    },
+    {
+      "jobid": 278,
+      "task": "makeAnalysisRecalibratedStarAstrometricRefMatch",
+      "resource_key": "makeAnalysisRecalibratedStarAstrometricRefMatch:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "visit": 1,
+        "tract": 0
+      },
+      "cores": 1,
+      "flops": 500000000,
+      "creation_time": null,
+      "input_files": [
+        "recalibrated_star_final_q44.dat"
+      ],
+      "input_file_sizes": {
+        "recalibrated_star_final_q44.dat": 10000000
+      },
+      "output_files": {
+        "ref_match_astrom_q278.dat": 10000000
+      },
+      "parents": [
+        44
+      ],
+      "children": [
+        {
+          "jobid": 279,
+          "creation_delay": 0,
+          "dataset_type": "ref_match_astrom"
+        }
+      ]
+    },
+    {
+      "jobid": 279,
+      "task": "analyzeRecalibratedStarAstrometricRefMatch",
+      "resource_key": "analyzeRecalibratedStarAstrometricRefMatch:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "visit": 1,
+        "tract": 0
+      },
+      "cores": 1,
+      "flops": 500000000,
+      "creation_time": null,
+      "input_files": [
+        "ref_match_astrom_q278.dat"
+      ],
+      "input_file_sizes": {
+        "ref_match_astrom_q278.dat": 10000000
+      },
+      "output_files": {
+        "qa_metrics_q279.dat": 500000
+      },
+      "parents": [
+        278
+      ],
+      "children": []
+    },
+    {
+      "jobid": 280,
+      "task": "makeAnalysisRecalibratedStarAstrometricRefMatch",
+      "resource_key": "makeAnalysisRecalibratedStarAstrometricRefMatch:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "visit": 2,
+        "tract": 0
+      },
+      "cores": 1,
+      "flops": 500000000,
+      "creation_time": null,
+      "input_files": [
+        "recalibrated_star_final_q66.dat"
+      ],
+      "input_file_sizes": {
+        "recalibrated_star_final_q66.dat": 10000000
+      },
+      "output_files": {
+        "ref_match_astrom_q280.dat": 10000000
+      },
+      "parents": [
+        66
+      ],
+      "children": [
+        {
+          "jobid": 281,
+          "creation_delay": 0,
+          "dataset_type": "ref_match_astrom"
+        }
+      ]
+    },
+    {
+      "jobid": 281,
+      "task": "analyzeRecalibratedStarAstrometricRefMatch",
+      "resource_key": "analyzeRecalibratedStarAstrometricRefMatch:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "visit": 2,
+        "tract": 0
+      },
+      "cores": 1,
+      "flops": 500000000,
+      "creation_time": null,
+      "input_files": [
+        "ref_match_astrom_q280.dat"
+      ],
+      "input_file_sizes": {
+        "ref_match_astrom_q280.dat": 10000000
+      },
+      "output_files": {
+        "qa_metrics_q281.dat": 500000
+      },
+      "parents": [
+        280
+      ],
+      "children": []
+    },
+    {
+      "jobid": 282,
+      "task": "makeAnalysisRecalibratedStarAstrometricRefMatch",
+      "resource_key": "makeAnalysisRecalibratedStarAstrometricRefMatch:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "visit": 3,
+        "tract": 0
+      },
+      "cores": 1,
+      "flops": 500000000,
+      "creation_time": null,
+      "input_files": [
+        "recalibrated_star_final_q88.dat"
+      ],
+      "input_file_sizes": {
+        "recalibrated_star_final_q88.dat": 10000000
+      },
+      "output_files": {
+        "ref_match_astrom_q282.dat": 10000000
+      },
+      "parents": [
+        88
+      ],
+      "children": [
+        {
+          "jobid": 283,
+          "creation_delay": 0,
+          "dataset_type": "ref_match_astrom"
+        }
+      ]
+    },
+    {
+      "jobid": 283,
+      "task": "analyzeRecalibratedStarAstrometricRefMatch",
+      "resource_key": "analyzeRecalibratedStarAstrometricRefMatch:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "visit": 3,
+        "tract": 0
+      },
+      "cores": 1,
+      "flops": 500000000,
+      "creation_time": null,
+      "input_files": [
+        "ref_match_astrom_q282.dat"
+      ],
+      "input_file_sizes": {
+        "ref_match_astrom_q282.dat": 10000000
+      },
+      "output_files": {
+        "qa_metrics_q283.dat": 500000
+      },
+      "parents": [
+        282
+      ],
+      "children": []
+    },
+    {
+      "jobid": 284,
+      "task": "makeAnalysisRecalibratedStarAstrometricRefMatch",
+      "resource_key": "makeAnalysisRecalibratedStarAstrometricRefMatch:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "visit": 4,
+        "tract": 0
+      },
+      "cores": 1,
+      "flops": 500000000,
+      "creation_time": null,
+      "input_files": [
+        "recalibrated_star_final_q110.dat"
+      ],
+      "input_file_sizes": {
+        "recalibrated_star_final_q110.dat": 10000000
+      },
+      "output_files": {
+        "ref_match_astrom_q284.dat": 10000000
+      },
+      "parents": [
+        110
+      ],
+      "children": [
+        {
+          "jobid": 285,
+          "creation_delay": 0,
+          "dataset_type": "ref_match_astrom"
+        }
+      ]
+    },
+    {
+      "jobid": 285,
+      "task": "analyzeRecalibratedStarAstrometricRefMatch",
+      "resource_key": "analyzeRecalibratedStarAstrometricRefMatch:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "visit": 4,
+        "tract": 0
+      },
+      "cores": 1,
+      "flops": 500000000,
+      "creation_time": null,
+      "input_files": [
+        "ref_match_astrom_q284.dat"
+      ],
+      "input_file_sizes": {
+        "ref_match_astrom_q284.dat": 10000000
+      },
+      "output_files": {
+        "qa_metrics_q285.dat": 500000
+      },
+      "parents": [
+        284
+      ],
+      "children": []
+    },
+    {
+      "jobid": 286,
+      "task": "makeAnalysisRecalibratedStarAstrometricRefMatch",
+      "resource_key": "makeAnalysisRecalibratedStarAstrometricRefMatch:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "visit": 5,
+        "tract": 0
+      },
+      "cores": 1,
+      "flops": 500000000,
+      "creation_time": null,
+      "input_files": [
+        "recalibrated_star_final_q132.dat"
+      ],
+      "input_file_sizes": {
+        "recalibrated_star_final_q132.dat": 10000000
+      },
+      "output_files": {
+        "ref_match_astrom_q286.dat": 10000000
+      },
+      "parents": [
+        132
+      ],
+      "children": [
+        {
+          "jobid": 287,
+          "creation_delay": 0,
+          "dataset_type": "ref_match_astrom"
+        }
+      ]
+    },
+    {
+      "jobid": 287,
+      "task": "analyzeRecalibratedStarAstrometricRefMatch",
+      "resource_key": "analyzeRecalibratedStarAstrometricRefMatch:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "visit": 5,
+        "tract": 0
+      },
+      "cores": 1,
+      "flops": 500000000,
+      "creation_time": null,
+      "input_files": [
+        "ref_match_astrom_q286.dat"
+      ],
+      "input_file_sizes": {
+        "ref_match_astrom_q286.dat": 10000000
+      },
+      "output_files": {
+        "qa_metrics_q287.dat": 500000
+      },
+      "parents": [
+        286
+      ],
+      "children": []
+    },
+    {
+      "jobid": 288,
+      "task": "makeAnalysisRecalibratedStarAstrometricRefMatch",
+      "resource_key": "makeAnalysisRecalibratedStarAstrometricRefMatch:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "visit": 6,
+        "tract": 1
+      },
+      "cores": 1,
+      "flops": 500000000,
+      "creation_time": null,
+      "input_files": [
+        "recalibrated_star_final_q154.dat"
+      ],
+      "input_file_sizes": {
+        "recalibrated_star_final_q154.dat": 10000000
+      },
+      "output_files": {
+        "ref_match_astrom_q288.dat": 10000000
+      },
+      "parents": [
+        154
+      ],
+      "children": [
+        {
+          "jobid": 289,
+          "creation_delay": 0,
+          "dataset_type": "ref_match_astrom"
+        }
+      ]
+    },
+    {
+      "jobid": 289,
+      "task": "analyzeRecalibratedStarAstrometricRefMatch",
+      "resource_key": "analyzeRecalibratedStarAstrometricRefMatch:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "visit": 6,
+        "tract": 1
+      },
+      "cores": 1,
+      "flops": 500000000,
+      "creation_time": null,
+      "input_files": [
+        "ref_match_astrom_q288.dat"
+      ],
+      "input_file_sizes": {
+        "ref_match_astrom_q288.dat": 10000000
+      },
+      "output_files": {
+        "qa_metrics_q289.dat": 500000
+      },
+      "parents": [
+        288
+      ],
+      "children": []
+    },
+    {
+      "jobid": 290,
+      "task": "makeAnalysisRecalibratedStarAstrometricRefMatch",
+      "resource_key": "makeAnalysisRecalibratedStarAstrometricRefMatch:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "visit": 7,
+        "tract": 1
+      },
+      "cores": 1,
+      "flops": 500000000,
+      "creation_time": null,
+      "input_files": [
+        "recalibrated_star_final_q176.dat"
+      ],
+      "input_file_sizes": {
+        "recalibrated_star_final_q176.dat": 10000000
+      },
+      "output_files": {
+        "ref_match_astrom_q290.dat": 10000000
+      },
+      "parents": [
+        176
+      ],
+      "children": [
+        {
+          "jobid": 291,
+          "creation_delay": 0,
+          "dataset_type": "ref_match_astrom"
+        }
+      ]
+    },
+    {
+      "jobid": 291,
+      "task": "analyzeRecalibratedStarAstrometricRefMatch",
+      "resource_key": "analyzeRecalibratedStarAstrometricRefMatch:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "visit": 7,
+        "tract": 1
+      },
+      "cores": 1,
+      "flops": 500000000,
+      "creation_time": null,
+      "input_files": [
+        "ref_match_astrom_q290.dat"
+      ],
+      "input_file_sizes": {
+        "ref_match_astrom_q290.dat": 10000000
+      },
+      "output_files": {
+        "qa_metrics_q291.dat": 500000
+      },
+      "parents": [
+        290
+      ],
+      "children": []
+    },
+    {
+      "jobid": 292,
+      "task": "makeAnalysisRecalibratedStarAstrometricRefMatch",
+      "resource_key": "makeAnalysisRecalibratedStarAstrometricRefMatch:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "visit": 8,
+        "tract": 1
+      },
+      "cores": 1,
+      "flops": 500000000,
+      "creation_time": null,
+      "input_files": [
+        "recalibrated_star_final_q198.dat"
+      ],
+      "input_file_sizes": {
+        "recalibrated_star_final_q198.dat": 10000000
+      },
+      "output_files": {
+        "ref_match_astrom_q292.dat": 10000000
+      },
+      "parents": [
+        198
+      ],
+      "children": [
+        {
+          "jobid": 293,
+          "creation_delay": 0,
+          "dataset_type": "ref_match_astrom"
+        }
+      ]
+    },
+    {
+      "jobid": 293,
+      "task": "analyzeRecalibratedStarAstrometricRefMatch",
+      "resource_key": "analyzeRecalibratedStarAstrometricRefMatch:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "visit": 8,
+        "tract": 1
+      },
+      "cores": 1,
+      "flops": 500000000,
+      "creation_time": null,
+      "input_files": [
+        "ref_match_astrom_q292.dat"
+      ],
+      "input_file_sizes": {
+        "ref_match_astrom_q292.dat": 10000000
+      },
+      "output_files": {
+        "qa_metrics_q293.dat": 500000
+      },
+      "parents": [
+        292
+      ],
+      "children": []
+    },
+    {
+      "jobid": 294,
+      "task": "makeAnalysisRecalibratedStarAstrometricRefMatch",
+      "resource_key": "makeAnalysisRecalibratedStarAstrometricRefMatch:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "visit": 9,
+        "tract": 1
+      },
+      "cores": 1,
+      "flops": 500000000,
+      "creation_time": null,
+      "input_files": [
+        "recalibrated_star_final_q220.dat"
+      ],
+      "input_file_sizes": {
+        "recalibrated_star_final_q220.dat": 10000000
+      },
+      "output_files": {
+        "ref_match_astrom_q294.dat": 10000000
+      },
+      "parents": [
+        220
+      ],
+      "children": [
+        {
+          "jobid": 295,
+          "creation_delay": 0,
+          "dataset_type": "ref_match_astrom"
+        }
+      ]
+    },
+    {
+      "jobid": 295,
+      "task": "analyzeRecalibratedStarAstrometricRefMatch",
+      "resource_key": "analyzeRecalibratedStarAstrometricRefMatch:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "visit": 9,
+        "tract": 1
+      },
+      "cores": 1,
+      "flops": 500000000,
+      "creation_time": null,
+      "input_files": [
+        "ref_match_astrom_q294.dat"
+      ],
+      "input_file_sizes": {
+        "ref_match_astrom_q294.dat": 10000000
+      },
+      "output_files": {
+        "qa_metrics_q295.dat": 500000
+      },
+      "parents": [
+        294
+      ],
+      "children": []
+    },
+    {
+      "jobid": 296,
+      "task": "makeAnalysisRecalibratedStarAstrometricRefMatch",
+      "resource_key": "makeAnalysisRecalibratedStarAstrometricRefMatch:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "visit": 10,
+        "tract": 1
+      },
+      "cores": 1,
+      "flops": 500000000,
+      "creation_time": null,
+      "input_files": [
+        "recalibrated_star_final_q242.dat"
+      ],
+      "input_file_sizes": {
+        "recalibrated_star_final_q242.dat": 10000000
+      },
+      "output_files": {
+        "ref_match_astrom_q296.dat": 10000000
+      },
+      "parents": [
+        242
+      ],
+      "children": [
+        {
+          "jobid": 297,
+          "creation_delay": 0,
+          "dataset_type": "ref_match_astrom"
+        }
+      ]
+    },
+    {
+      "jobid": 297,
+      "task": "analyzeRecalibratedStarAstrometricRefMatch",
+      "resource_key": "analyzeRecalibratedStarAstrometricRefMatch:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "visit": 10,
+        "tract": 1
+      },
+      "cores": 1,
+      "flops": 500000000,
+      "creation_time": null,
+      "input_files": [
+        "ref_match_astrom_q296.dat"
+      ],
+      "input_file_sizes": {
+        "ref_match_astrom_q296.dat": 10000000
+      },
+      "output_files": {
+        "qa_metrics_q297.dat": 500000
+      },
+      "parents": [
+        296
+      ],
+      "children": []
+    },
+    {
+      "jobid": 298,
+      "task": "makeAnalysisRecalibratedStarAstrometricRefMatch",
+      "resource_key": "makeAnalysisRecalibratedStarAstrometricRefMatch:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "visit": 11,
+        "tract": 1
+      },
+      "cores": 1,
+      "flops": 500000000,
+      "creation_time": null,
+      "input_files": [
+        "recalibrated_star_final_q264.dat"
+      ],
+      "input_file_sizes": {
+        "recalibrated_star_final_q264.dat": 10000000
+      },
+      "output_files": {
+        "ref_match_astrom_q298.dat": 10000000
+      },
+      "parents": [
+        264
+      ],
+      "children": [
+        {
+          "jobid": 299,
+          "creation_delay": 0,
+          "dataset_type": "ref_match_astrom"
+        }
+      ]
+    },
+    {
+      "jobid": 299,
+      "task": "analyzeRecalibratedStarAstrometricRefMatch",
+      "resource_key": "analyzeRecalibratedStarAstrometricRefMatch:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "visit": 11,
+        "tract": 1
+      },
+      "cores": 1,
+      "flops": 500000000,
+      "creation_time": null,
+      "input_files": [
+        "ref_match_astrom_q298.dat"
+      ],
+      "input_file_sizes": {
+        "ref_match_astrom_q298.dat": 10000000
+      },
+      "output_files": {
+        "qa_metrics_q299.dat": 500000
+      },
+      "parents": [
+        298
+      ],
+      "children": []
+    },
+    {
+      "jobid": 300,
+      "task": "fitStellarMotion",
+      "resource_key": "fitStellarMotion:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 0
+      },
+      "cores": 1,
+      "flops": 8000000000,
+      "creation_time": null,
+      "input_files": [
+        "recalibrated_star_final_q22.dat",
+        "recalibrated_star_final_q44.dat",
+        "recalibrated_star_final_q66.dat",
+        "recalibrated_star_final_q88.dat",
+        "recalibrated_star_final_q110.dat",
+        "recalibrated_star_final_q132.dat"
+      ],
+      "input_file_sizes": {
+        "recalibrated_star_final_q22.dat": 10000000,
+        "recalibrated_star_final_q44.dat": 10000000,
+        "recalibrated_star_final_q66.dat": 10000000,
+        "recalibrated_star_final_q88.dat": 10000000,
+        "recalibrated_star_final_q110.dat": 10000000,
+        "recalibrated_star_final_q132.dat": 10000000
+      },
+      "output_files": {
+        "stellar_motions_q300.dat": 10000000
+      },
+      "parents": [
+        22,
+        44,
+        66,
+        88,
+        110,
+        132
+      ],
+      "children": []
+    },
+    {
+      "jobid": 301,
+      "task": "analyzeRecalibratedStarAssociation",
+      "resource_key": "analyzeRecalibratedStarAssociation:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 0
+      },
+      "cores": 1,
+      "flops": 2000000000,
+      "creation_time": null,
+      "input_files": [
+        "recalibrated_star_final_q22.dat",
+        "recalibrated_star_final_q44.dat",
+        "recalibrated_star_final_q66.dat",
+        "recalibrated_star_final_q88.dat",
+        "recalibrated_star_final_q110.dat",
+        "recalibrated_star_final_q132.dat"
+      ],
+      "input_file_sizes": {
+        "recalibrated_star_final_q22.dat": 10000000,
+        "recalibrated_star_final_q44.dat": 10000000,
+        "recalibrated_star_final_q66.dat": 10000000,
+        "recalibrated_star_final_q88.dat": 10000000,
+        "recalibrated_star_final_q110.dat": 10000000,
+        "recalibrated_star_final_q132.dat": 10000000
+      },
+      "output_files": {
+        "qa_metrics_q301.dat": 500000,
+        "qa_plot_bundle_q301.dat": 30000000
+      },
+      "parents": [
+        22,
+        44,
+        66,
+        88,
+        110,
+        132
+      ],
+      "children": [
+        {
+          "jobid": 304,
+          "creation_delay": 0,
+          "dataset_type": "qa_metrics"
+        }
+      ]
+    },
+    {
+      "jobid": 302,
+      "task": "fitStellarMotion",
+      "resource_key": "fitStellarMotion:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 1
+      },
+      "cores": 1,
+      "flops": 8000000000,
+      "creation_time": null,
+      "input_files": [
+        "recalibrated_star_final_q154.dat",
+        "recalibrated_star_final_q176.dat",
+        "recalibrated_star_final_q198.dat",
+        "recalibrated_star_final_q220.dat",
+        "recalibrated_star_final_q242.dat",
+        "recalibrated_star_final_q264.dat"
+      ],
+      "input_file_sizes": {
+        "recalibrated_star_final_q154.dat": 10000000,
+        "recalibrated_star_final_q176.dat": 10000000,
+        "recalibrated_star_final_q198.dat": 10000000,
+        "recalibrated_star_final_q220.dat": 10000000,
+        "recalibrated_star_final_q242.dat": 10000000,
+        "recalibrated_star_final_q264.dat": 10000000
+      },
+      "output_files": {
+        "stellar_motions_q302.dat": 10000000
+      },
+      "parents": [
+        154,
+        176,
+        198,
+        220,
+        242,
+        264
+      ],
+      "children": []
+    },
+    {
+      "jobid": 303,
+      "task": "analyzeRecalibratedStarAssociation",
+      "resource_key": "analyzeRecalibratedStarAssociation:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 1
+      },
+      "cores": 1,
+      "flops": 2000000000,
+      "creation_time": null,
+      "input_files": [
+        "recalibrated_star_final_q154.dat",
+        "recalibrated_star_final_q176.dat",
+        "recalibrated_star_final_q198.dat",
+        "recalibrated_star_final_q220.dat",
+        "recalibrated_star_final_q242.dat",
+        "recalibrated_star_final_q264.dat"
+      ],
+      "input_file_sizes": {
+        "recalibrated_star_final_q154.dat": 10000000,
+        "recalibrated_star_final_q176.dat": 10000000,
+        "recalibrated_star_final_q198.dat": 10000000,
+        "recalibrated_star_final_q220.dat": 10000000,
+        "recalibrated_star_final_q242.dat": 10000000,
+        "recalibrated_star_final_q264.dat": 10000000
+      },
+      "output_files": {
+        "qa_metrics_q303.dat": 500000,
+        "qa_plot_bundle_q303.dat": 30000000
+      },
+      "parents": [
+        154,
+        176,
+        198,
+        220,
+        242,
+        264
+      ],
+      "children": [
+        {
+          "jobid": 304,
+          "creation_delay": 0,
+          "dataset_type": "qa_metrics"
+        }
+      ]
+    },
+    {
+      "jobid": 304,
+      "task": "makeAnalysisRecalibratedStarAssociationMetricTable",
+      "resource_key": "makeAnalysisRecalibratedStarAssociationMetricTable:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam"
+      },
+      "cores": 1,
+      "flops": 200000000,
+      "creation_time": null,
+      "input_files": [
+        "qa_metrics_q301.dat",
+        "qa_metrics_q303.dat"
+      ],
+      "input_file_sizes": {
+        "qa_metrics_q301.dat": 500000,
+        "qa_metrics_q303.dat": 500000
+      },
+      "output_files": {
+        "qa_metrics_table_q304.dat": 2000000
+      },
+      "parents": [
+        301,
+        303
+      ],
+      "children": [
+        {
+          "jobid": 305,
+          "creation_delay": 0,
+          "dataset_type": "qa_metrics_table"
+        }
+      ]
+    },
+    {
+      "jobid": 305,
+      "task": "makeAnalysisRecalibratedStarAssociationWholeSkyPlot",
+      "resource_key": "makeAnalysisRecalibratedStarAssociationWholeSkyPlot:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam"
+      },
+      "cores": 1,
+      "flops": 500000000,
+      "creation_time": null,
+      "input_files": [
+        "qa_metrics_table_q304.dat"
+      ],
+      "input_file_sizes": {
+        "qa_metrics_table_q304.dat": 2000000
+      },
+      "output_files": {
+        "qa_plot_bundle_q305.dat": 30000000
+      },
+      "parents": [
+        304
+      ],
+      "children": []
+    },
+    {
+      "jobid": 306,
+      "task": "makeVisitDetectorTable",
+      "resource_key": "makeVisitDetectorTable:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam"
+      },
+      "cores": 1,
+      "flops": 1000000000,
+      "creation_time": null,
+      "input_files": [
+        "visit_summary_q1.dat",
+        "visit_summary_q23.dat",
+        "visit_summary_q45.dat",
+        "visit_summary_q67.dat",
+        "visit_summary_q89.dat",
+        "visit_summary_q111.dat",
+        "visit_summary_q133.dat",
+        "visit_summary_q155.dat",
+        "visit_summary_q177.dat",
+        "visit_summary_q199.dat",
+        "visit_summary_q221.dat",
+        "visit_summary_q243.dat"
+      ],
+      "input_file_sizes": {
+        "visit_summary_q1.dat": 500000,
+        "visit_summary_q23.dat": 500000,
+        "visit_summary_q45.dat": 500000,
+        "visit_summary_q67.dat": 500000,
+        "visit_summary_q89.dat": 500000,
+        "visit_summary_q111.dat": 500000,
+        "visit_summary_q133.dat": 500000,
+        "visit_summary_q155.dat": 500000,
+        "visit_summary_q177.dat": 500000,
+        "visit_summary_q199.dat": 500000,
+        "visit_summary_q221.dat": 500000,
+        "visit_summary_q243.dat": 500000
+      },
+      "output_files": {
+        "visit_detector_table_q306.dat": 10000000
+      },
+      "parents": [
+        1,
+        23,
+        45,
+        67,
+        89,
+        111,
+        133,
+        155,
+        177,
+        199,
+        221,
+        243
+      ],
+      "children": []
+    },
+    {
+      "jobid": 307,
+      "task": "makeVisitTable",
+      "resource_key": "makeVisitTable:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam"
+      },
+      "cores": 1,
+      "flops": 1000000000,
+      "creation_time": null,
+      "input_files": [
+        "visit_summary_q1.dat",
+        "visit_summary_q23.dat",
+        "visit_summary_q45.dat",
+        "visit_summary_q67.dat",
+        "visit_summary_q89.dat",
+        "visit_summary_q111.dat",
+        "visit_summary_q133.dat",
+        "visit_summary_q155.dat",
+        "visit_summary_q177.dat",
+        "visit_summary_q199.dat",
+        "visit_summary_q221.dat",
+        "visit_summary_q243.dat"
+      ],
+      "input_file_sizes": {
+        "visit_summary_q1.dat": 500000,
+        "visit_summary_q23.dat": 500000,
+        "visit_summary_q45.dat": 500000,
+        "visit_summary_q67.dat": 500000,
+        "visit_summary_q89.dat": 500000,
+        "visit_summary_q111.dat": 500000,
+        "visit_summary_q133.dat": 500000,
+        "visit_summary_q155.dat": 500000,
+        "visit_summary_q177.dat": 500000,
+        "visit_summary_q199.dat": 500000,
+        "visit_summary_q221.dat": 500000,
+        "visit_summary_q243.dat": 500000
+      },
+      "output_files": {
+        "visit_table_q307.dat": 10000000
+      },
+      "parents": [
+        1,
+        23,
+        45,
+        67,
+        89,
+        111,
+        133,
+        155,
+        177,
+        199,
+        221,
         243
       ],
       "children": []

@@ -45,6 +45,11 @@
           "jobid": 5,
           "creation_delay": 0,
           "dataset_type": "deep_coadd_visit_selection"
+        },
+        {
+          "jobid": 278,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd_visit_selection"
         }
       ]
     },
@@ -246,6 +251,21 @@
           "jobid": 31,
           "creation_delay": 0,
           "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 277,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 298,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 359,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
         }
       ]
     },
@@ -325,6 +345,11 @@
         },
         {
           "jobid": 12,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd_visit_selection"
+        },
+        {
+          "jobid": 280,
           "creation_delay": 0,
           "dataset_type": "deep_coadd_visit_selection"
         }
@@ -528,6 +553,21 @@
           "jobid": 32,
           "creation_delay": 0,
           "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 279,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 305,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 359,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
         }
       ]
     },
@@ -607,6 +647,11 @@
         },
         {
           "jobid": 19,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd_visit_selection"
+        },
+        {
+          "jobid": 282,
           "creation_delay": 0,
           "dataset_type": "deep_coadd_visit_selection"
         }
@@ -808,6 +853,21 @@
         },
         {
           "jobid": 33,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 281,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 312,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 359,
           "creation_delay": 0,
           "dataset_type": "deep_coadd"
         }
@@ -1405,6 +1465,11 @@
           "jobid": 39,
           "creation_delay": 0,
           "dataset_type": "deep_coadd_visit_selection"
+        },
+        {
+          "jobid": 278,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd_visit_selection"
         }
       ]
     },
@@ -1606,6 +1671,21 @@
           "jobid": 65,
           "creation_delay": 0,
           "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 277,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 299,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 360,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
         }
       ]
     },
@@ -1685,6 +1765,11 @@
         },
         {
           "jobid": 46,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd_visit_selection"
+        },
+        {
+          "jobid": 280,
           "creation_delay": 0,
           "dataset_type": "deep_coadd_visit_selection"
         }
@@ -1888,6 +1973,21 @@
           "jobid": 66,
           "creation_delay": 0,
           "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 279,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 306,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 360,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
         }
       ]
     },
@@ -1967,6 +2067,11 @@
         },
         {
           "jobid": 53,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd_visit_selection"
+        },
+        {
+          "jobid": 282,
           "creation_delay": 0,
           "dataset_type": "deep_coadd_visit_selection"
         }
@@ -2168,6 +2273,21 @@
         },
         {
           "jobid": 67,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 281,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 313,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 360,
           "creation_delay": 0,
           "dataset_type": "deep_coadd"
         }
@@ -2765,6 +2885,11 @@
           "jobid": 73,
           "creation_delay": 0,
           "dataset_type": "deep_coadd_visit_selection"
+        },
+        {
+          "jobid": 278,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd_visit_selection"
         }
       ]
     },
@@ -2966,6 +3091,21 @@
           "jobid": 99,
           "creation_delay": 0,
           "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 277,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 300,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 361,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
         }
       ]
     },
@@ -3045,6 +3185,11 @@
         },
         {
           "jobid": 80,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd_visit_selection"
+        },
+        {
+          "jobid": 280,
           "creation_delay": 0,
           "dataset_type": "deep_coadd_visit_selection"
         }
@@ -3248,6 +3393,21 @@
           "jobid": 100,
           "creation_delay": 0,
           "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 279,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 307,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 361,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
         }
       ]
     },
@@ -3327,6 +3487,11 @@
         },
         {
           "jobid": 87,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd_visit_selection"
+        },
+        {
+          "jobid": 282,
           "creation_delay": 0,
           "dataset_type": "deep_coadd_visit_selection"
         }
@@ -3528,6 +3693,21 @@
         },
         {
           "jobid": 101,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 281,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 314,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 361,
           "creation_delay": 0,
           "dataset_type": "deep_coadd"
         }
@@ -4125,6 +4305,11 @@
           "jobid": 107,
           "creation_delay": 0,
           "dataset_type": "deep_coadd_visit_selection"
+        },
+        {
+          "jobid": 278,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd_visit_selection"
         }
       ]
     },
@@ -4326,6 +4511,21 @@
           "jobid": 133,
           "creation_delay": 0,
           "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 277,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 301,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 362,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
         }
       ]
     },
@@ -4405,6 +4605,11 @@
         },
         {
           "jobid": 114,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd_visit_selection"
+        },
+        {
+          "jobid": 280,
           "creation_delay": 0,
           "dataset_type": "deep_coadd_visit_selection"
         }
@@ -4608,6 +4813,21 @@
           "jobid": 134,
           "creation_delay": 0,
           "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 279,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 308,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 362,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
         }
       ]
     },
@@ -4687,6 +4907,11 @@
         },
         {
           "jobid": 121,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd_visit_selection"
+        },
+        {
+          "jobid": 282,
           "creation_delay": 0,
           "dataset_type": "deep_coadd_visit_selection"
         }
@@ -4888,6 +5113,21 @@
         },
         {
           "jobid": 135,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 281,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 315,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 362,
           "creation_delay": 0,
           "dataset_type": "deep_coadd"
         }
@@ -5477,6 +5717,26 @@
           "jobid": 138,
           "creation_delay": 0,
           "dataset_type": "object"
+        },
+        {
+          "jobid": 293,
+          "creation_delay": 0,
+          "dataset_type": "object"
+        },
+        {
+          "jobid": 295,
+          "creation_delay": 0,
+          "dataset_type": "object"
+        },
+        {
+          "jobid": 296,
+          "creation_delay": 0,
+          "dataset_type": "object"
+        },
+        {
+          "jobid": 343,
+          "creation_delay": 0,
+          "dataset_type": "object"
         }
       ]
     },
@@ -5503,7 +5763,13 @@
       "parents": [
         137
       ],
-      "children": []
+      "children": [
+        {
+          "jobid": 294,
+          "creation_delay": 0,
+          "dataset_type": "object_parent"
+        }
+      ]
     },
     {
       "jobid": 139,
@@ -5548,6 +5814,11 @@
         },
         {
           "jobid": 143,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd_visit_selection"
+        },
+        {
+          "jobid": 284,
           "creation_delay": 0,
           "dataset_type": "deep_coadd_visit_selection"
         }
@@ -5751,6 +6022,21 @@
           "jobid": 169,
           "creation_delay": 0,
           "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 283,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 323,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 363,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
         }
       ]
     },
@@ -5830,6 +6116,11 @@
         },
         {
           "jobid": 150,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd_visit_selection"
+        },
+        {
+          "jobid": 286,
           "creation_delay": 0,
           "dataset_type": "deep_coadd_visit_selection"
         }
@@ -6033,6 +6324,21 @@
           "jobid": 170,
           "creation_delay": 0,
           "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 285,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 330,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 363,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
         }
       ]
     },
@@ -6112,6 +6418,11 @@
         },
         {
           "jobid": 157,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd_visit_selection"
+        },
+        {
+          "jobid": 288,
           "creation_delay": 0,
           "dataset_type": "deep_coadd_visit_selection"
         }
@@ -6313,6 +6624,21 @@
         },
         {
           "jobid": 171,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 287,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 337,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 363,
           "creation_delay": 0,
           "dataset_type": "deep_coadd"
         }
@@ -6910,6 +7236,11 @@
           "jobid": 177,
           "creation_delay": 0,
           "dataset_type": "deep_coadd_visit_selection"
+        },
+        {
+          "jobid": 284,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd_visit_selection"
         }
       ]
     },
@@ -7111,6 +7442,21 @@
           "jobid": 203,
           "creation_delay": 0,
           "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 283,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 324,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 364,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
         }
       ]
     },
@@ -7190,6 +7536,11 @@
         },
         {
           "jobid": 184,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd_visit_selection"
+        },
+        {
+          "jobid": 286,
           "creation_delay": 0,
           "dataset_type": "deep_coadd_visit_selection"
         }
@@ -7393,6 +7744,21 @@
           "jobid": 204,
           "creation_delay": 0,
           "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 285,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 331,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 364,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
         }
       ]
     },
@@ -7472,6 +7838,11 @@
         },
         {
           "jobid": 191,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd_visit_selection"
+        },
+        {
+          "jobid": 288,
           "creation_delay": 0,
           "dataset_type": "deep_coadd_visit_selection"
         }
@@ -7673,6 +8044,21 @@
         },
         {
           "jobid": 205,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 287,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 338,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 364,
           "creation_delay": 0,
           "dataset_type": "deep_coadd"
         }
@@ -8270,6 +8656,11 @@
           "jobid": 211,
           "creation_delay": 0,
           "dataset_type": "deep_coadd_visit_selection"
+        },
+        {
+          "jobid": 284,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd_visit_selection"
         }
       ]
     },
@@ -8471,6 +8862,21 @@
           "jobid": 237,
           "creation_delay": 0,
           "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 283,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 325,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 365,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
         }
       ]
     },
@@ -8550,6 +8956,11 @@
         },
         {
           "jobid": 218,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd_visit_selection"
+        },
+        {
+          "jobid": 286,
           "creation_delay": 0,
           "dataset_type": "deep_coadd_visit_selection"
         }
@@ -8753,6 +9164,21 @@
           "jobid": 238,
           "creation_delay": 0,
           "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 285,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 332,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 365,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
         }
       ]
     },
@@ -8832,6 +9258,11 @@
         },
         {
           "jobid": 225,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd_visit_selection"
+        },
+        {
+          "jobid": 288,
           "creation_delay": 0,
           "dataset_type": "deep_coadd_visit_selection"
         }
@@ -9033,6 +9464,21 @@
         },
         {
           "jobid": 239,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 287,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 339,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 365,
           "creation_delay": 0,
           "dataset_type": "deep_coadd"
         }
@@ -9630,6 +10076,11 @@
           "jobid": 245,
           "creation_delay": 0,
           "dataset_type": "deep_coadd_visit_selection"
+        },
+        {
+          "jobid": 284,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd_visit_selection"
         }
       ]
     },
@@ -9831,6 +10282,21 @@
           "jobid": 271,
           "creation_delay": 0,
           "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 283,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 326,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 366,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
         }
       ]
     },
@@ -9910,6 +10376,11 @@
         },
         {
           "jobid": 252,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd_visit_selection"
+        },
+        {
+          "jobid": 286,
           "creation_delay": 0,
           "dataset_type": "deep_coadd_visit_selection"
         }
@@ -10113,6 +10584,21 @@
           "jobid": 272,
           "creation_delay": 0,
           "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 285,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 333,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 366,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
         }
       ]
     },
@@ -10192,6 +10678,11 @@
         },
         {
           "jobid": 259,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd_visit_selection"
+        },
+        {
+          "jobid": 288,
           "creation_delay": 0,
           "dataset_type": "deep_coadd_visit_selection"
         }
@@ -10393,6 +10884,21 @@
         },
         {
           "jobid": 273,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 287,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 340,
+          "creation_delay": 0,
+          "dataset_type": "deep_coadd"
+        },
+        {
+          "jobid": 366,
           "creation_delay": 0,
           "dataset_type": "deep_coadd"
         }
@@ -10982,6 +11488,26 @@
           "jobid": 276,
           "creation_delay": 0,
           "dataset_type": "object"
+        },
+        {
+          "jobid": 318,
+          "creation_delay": 0,
+          "dataset_type": "object"
+        },
+        {
+          "jobid": 320,
+          "creation_delay": 0,
+          "dataset_type": "object"
+        },
+        {
+          "jobid": 321,
+          "creation_delay": 0,
+          "dataset_type": "object"
+        },
+        {
+          "jobid": 343,
+          "creation_delay": 0,
+          "dataset_type": "object"
         }
       ]
     },
@@ -11007,6 +11533,3457 @@
       },
       "parents": [
         275
+      ],
+      "children": [
+        {
+          "jobid": 319,
+          "creation_delay": 0,
+          "dataset_type": "object_parent"
+        }
+      ]
+    },
+    {
+      "jobid": 277,
+      "task": "makeHealSparsePropertyMaps",
+      "resource_key": "makeHealSparsePropertyMaps:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 0,
+        "band": "g"
+      },
+      "cores": 1,
+      "flops": 4000000000,
+      "creation_time": null,
+      "input_files": [
+        "deep_coadd_q6.dat",
+        "deep_coadd_q40.dat",
+        "deep_coadd_q74.dat",
+        "deep_coadd_q108.dat"
+      ],
+      "input_file_sizes": {
+        "deep_coadd_q6.dat": 400000000,
+        "deep_coadd_q40.dat": 400000000,
+        "deep_coadd_q74.dat": 400000000,
+        "deep_coadd_q108.dat": 400000000
+      },
+      "output_files": {
+        "healsparse_map_q277.dat": 20000000
+      },
+      "parents": [
+        6,
+        40,
+        74,
+        108
+      ],
+      "children": [
+        {
+          "jobid": 290,
+          "creation_delay": 0,
+          "dataset_type": "healsparse_map"
+        },
+        {
+          "jobid": 297,
+          "creation_delay": 0,
+          "dataset_type": "healsparse_map"
+        }
+      ]
+    },
+    {
+      "jobid": 278,
+      "task": "makeDeepCoaddInputSummaryTract",
+      "resource_key": "makeDeepCoaddInputSummaryTract:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 0,
+        "band": "g"
+      },
+      "cores": 1,
+      "flops": 500000000,
+      "creation_time": null,
+      "input_files": [
+        "deep_coadd_visit_selection_q1.dat",
+        "deep_coadd_visit_selection_q35.dat",
+        "deep_coadd_visit_selection_q69.dat",
+        "deep_coadd_visit_selection_q103.dat"
+      ],
+      "input_file_sizes": {
+        "deep_coadd_visit_selection_q1.dat": 10000000,
+        "deep_coadd_visit_selection_q35.dat": 10000000,
+        "deep_coadd_visit_selection_q69.dat": 10000000,
+        "deep_coadd_visit_selection_q103.dat": 10000000
+      },
+      "output_files": {
+        "coadd_input_summary_q278.dat": 5000000
+      },
+      "parents": [
+        1,
+        35,
+        69,
+        103
+      ],
+      "children": [
+        {
+          "jobid": 289,
+          "creation_delay": 0,
+          "dataset_type": "coadd_input_summary"
+        }
+      ]
+    },
+    {
+      "jobid": 279,
+      "task": "makeHealSparsePropertyMaps",
+      "resource_key": "makeHealSparsePropertyMaps:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 0,
+        "band": "r"
+      },
+      "cores": 1,
+      "flops": 4000000000,
+      "creation_time": null,
+      "input_files": [
+        "deep_coadd_q13.dat",
+        "deep_coadd_q47.dat",
+        "deep_coadd_q81.dat",
+        "deep_coadd_q115.dat"
+      ],
+      "input_file_sizes": {
+        "deep_coadd_q13.dat": 400000000,
+        "deep_coadd_q47.dat": 400000000,
+        "deep_coadd_q81.dat": 400000000,
+        "deep_coadd_q115.dat": 400000000
+      },
+      "output_files": {
+        "healsparse_map_q279.dat": 20000000
+      },
+      "parents": [
+        13,
+        47,
+        81,
+        115
+      ],
+      "children": [
+        {
+          "jobid": 291,
+          "creation_delay": 0,
+          "dataset_type": "healsparse_map"
+        },
+        {
+          "jobid": 304,
+          "creation_delay": 0,
+          "dataset_type": "healsparse_map"
+        }
+      ]
+    },
+    {
+      "jobid": 280,
+      "task": "makeDeepCoaddInputSummaryTract",
+      "resource_key": "makeDeepCoaddInputSummaryTract:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 0,
+        "band": "r"
+      },
+      "cores": 1,
+      "flops": 500000000,
+      "creation_time": null,
+      "input_files": [
+        "deep_coadd_visit_selection_q8.dat",
+        "deep_coadd_visit_selection_q42.dat",
+        "deep_coadd_visit_selection_q76.dat",
+        "deep_coadd_visit_selection_q110.dat"
+      ],
+      "input_file_sizes": {
+        "deep_coadd_visit_selection_q8.dat": 10000000,
+        "deep_coadd_visit_selection_q42.dat": 10000000,
+        "deep_coadd_visit_selection_q76.dat": 10000000,
+        "deep_coadd_visit_selection_q110.dat": 10000000
+      },
+      "output_files": {
+        "coadd_input_summary_q280.dat": 5000000
+      },
+      "parents": [
+        8,
+        42,
+        76,
+        110
+      ],
+      "children": [
+        {
+          "jobid": 289,
+          "creation_delay": 0,
+          "dataset_type": "coadd_input_summary"
+        }
+      ]
+    },
+    {
+      "jobid": 281,
+      "task": "makeHealSparsePropertyMaps",
+      "resource_key": "makeHealSparsePropertyMaps:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 0,
+        "band": "i"
+      },
+      "cores": 1,
+      "flops": 4000000000,
+      "creation_time": null,
+      "input_files": [
+        "deep_coadd_q20.dat",
+        "deep_coadd_q54.dat",
+        "deep_coadd_q88.dat",
+        "deep_coadd_q122.dat"
+      ],
+      "input_file_sizes": {
+        "deep_coadd_q20.dat": 400000000,
+        "deep_coadd_q54.dat": 400000000,
+        "deep_coadd_q88.dat": 400000000,
+        "deep_coadd_q122.dat": 400000000
+      },
+      "output_files": {
+        "healsparse_map_q281.dat": 20000000
+      },
+      "parents": [
+        20,
+        54,
+        88,
+        122
+      ],
+      "children": [
+        {
+          "jobid": 292,
+          "creation_delay": 0,
+          "dataset_type": "healsparse_map"
+        },
+        {
+          "jobid": 311,
+          "creation_delay": 0,
+          "dataset_type": "healsparse_map"
+        }
+      ]
+    },
+    {
+      "jobid": 282,
+      "task": "makeDeepCoaddInputSummaryTract",
+      "resource_key": "makeDeepCoaddInputSummaryTract:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 0,
+        "band": "i"
+      },
+      "cores": 1,
+      "flops": 500000000,
+      "creation_time": null,
+      "input_files": [
+        "deep_coadd_visit_selection_q15.dat",
+        "deep_coadd_visit_selection_q49.dat",
+        "deep_coadd_visit_selection_q83.dat",
+        "deep_coadd_visit_selection_q117.dat"
+      ],
+      "input_file_sizes": {
+        "deep_coadd_visit_selection_q15.dat": 10000000,
+        "deep_coadd_visit_selection_q49.dat": 10000000,
+        "deep_coadd_visit_selection_q83.dat": 10000000,
+        "deep_coadd_visit_selection_q117.dat": 10000000
+      },
+      "output_files": {
+        "coadd_input_summary_q282.dat": 5000000
+      },
+      "parents": [
+        15,
+        49,
+        83,
+        117
+      ],
+      "children": [
+        {
+          "jobid": 289,
+          "creation_delay": 0,
+          "dataset_type": "coadd_input_summary"
+        }
+      ]
+    },
+    {
+      "jobid": 283,
+      "task": "makeHealSparsePropertyMaps",
+      "resource_key": "makeHealSparsePropertyMaps:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 1,
+        "band": "g"
+      },
+      "cores": 1,
+      "flops": 4000000000,
+      "creation_time": null,
+      "input_files": [
+        "deep_coadd_q144.dat",
+        "deep_coadd_q178.dat",
+        "deep_coadd_q212.dat",
+        "deep_coadd_q246.dat"
+      ],
+      "input_file_sizes": {
+        "deep_coadd_q144.dat": 400000000,
+        "deep_coadd_q178.dat": 400000000,
+        "deep_coadd_q212.dat": 400000000,
+        "deep_coadd_q246.dat": 400000000
+      },
+      "output_files": {
+        "healsparse_map_q283.dat": 20000000
+      },
+      "parents": [
+        144,
+        178,
+        212,
+        246
+      ],
+      "children": [
+        {
+          "jobid": 290,
+          "creation_delay": 0,
+          "dataset_type": "healsparse_map"
+        },
+        {
+          "jobid": 322,
+          "creation_delay": 0,
+          "dataset_type": "healsparse_map"
+        }
+      ]
+    },
+    {
+      "jobid": 284,
+      "task": "makeDeepCoaddInputSummaryTract",
+      "resource_key": "makeDeepCoaddInputSummaryTract:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 1,
+        "band": "g"
+      },
+      "cores": 1,
+      "flops": 500000000,
+      "creation_time": null,
+      "input_files": [
+        "deep_coadd_visit_selection_q139.dat",
+        "deep_coadd_visit_selection_q173.dat",
+        "deep_coadd_visit_selection_q207.dat",
+        "deep_coadd_visit_selection_q241.dat"
+      ],
+      "input_file_sizes": {
+        "deep_coadd_visit_selection_q139.dat": 10000000,
+        "deep_coadd_visit_selection_q173.dat": 10000000,
+        "deep_coadd_visit_selection_q207.dat": 10000000,
+        "deep_coadd_visit_selection_q241.dat": 10000000
+      },
+      "output_files": {
+        "coadd_input_summary_q284.dat": 5000000
+      },
+      "parents": [
+        139,
+        173,
+        207,
+        241
+      ],
+      "children": [
+        {
+          "jobid": 289,
+          "creation_delay": 0,
+          "dataset_type": "coadd_input_summary"
+        }
+      ]
+    },
+    {
+      "jobid": 285,
+      "task": "makeHealSparsePropertyMaps",
+      "resource_key": "makeHealSparsePropertyMaps:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 1,
+        "band": "r"
+      },
+      "cores": 1,
+      "flops": 4000000000,
+      "creation_time": null,
+      "input_files": [
+        "deep_coadd_q151.dat",
+        "deep_coadd_q185.dat",
+        "deep_coadd_q219.dat",
+        "deep_coadd_q253.dat"
+      ],
+      "input_file_sizes": {
+        "deep_coadd_q151.dat": 400000000,
+        "deep_coadd_q185.dat": 400000000,
+        "deep_coadd_q219.dat": 400000000,
+        "deep_coadd_q253.dat": 400000000
+      },
+      "output_files": {
+        "healsparse_map_q285.dat": 20000000
+      },
+      "parents": [
+        151,
+        185,
+        219,
+        253
+      ],
+      "children": [
+        {
+          "jobid": 291,
+          "creation_delay": 0,
+          "dataset_type": "healsparse_map"
+        },
+        {
+          "jobid": 329,
+          "creation_delay": 0,
+          "dataset_type": "healsparse_map"
+        }
+      ]
+    },
+    {
+      "jobid": 286,
+      "task": "makeDeepCoaddInputSummaryTract",
+      "resource_key": "makeDeepCoaddInputSummaryTract:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 1,
+        "band": "r"
+      },
+      "cores": 1,
+      "flops": 500000000,
+      "creation_time": null,
+      "input_files": [
+        "deep_coadd_visit_selection_q146.dat",
+        "deep_coadd_visit_selection_q180.dat",
+        "deep_coadd_visit_selection_q214.dat",
+        "deep_coadd_visit_selection_q248.dat"
+      ],
+      "input_file_sizes": {
+        "deep_coadd_visit_selection_q146.dat": 10000000,
+        "deep_coadd_visit_selection_q180.dat": 10000000,
+        "deep_coadd_visit_selection_q214.dat": 10000000,
+        "deep_coadd_visit_selection_q248.dat": 10000000
+      },
+      "output_files": {
+        "coadd_input_summary_q286.dat": 5000000
+      },
+      "parents": [
+        146,
+        180,
+        214,
+        248
+      ],
+      "children": [
+        {
+          "jobid": 289,
+          "creation_delay": 0,
+          "dataset_type": "coadd_input_summary"
+        }
+      ]
+    },
+    {
+      "jobid": 287,
+      "task": "makeHealSparsePropertyMaps",
+      "resource_key": "makeHealSparsePropertyMaps:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 1,
+        "band": "i"
+      },
+      "cores": 1,
+      "flops": 4000000000,
+      "creation_time": null,
+      "input_files": [
+        "deep_coadd_q158.dat",
+        "deep_coadd_q192.dat",
+        "deep_coadd_q226.dat",
+        "deep_coadd_q260.dat"
+      ],
+      "input_file_sizes": {
+        "deep_coadd_q158.dat": 400000000,
+        "deep_coadd_q192.dat": 400000000,
+        "deep_coadd_q226.dat": 400000000,
+        "deep_coadd_q260.dat": 400000000
+      },
+      "output_files": {
+        "healsparse_map_q287.dat": 20000000
+      },
+      "parents": [
+        158,
+        192,
+        226,
+        260
+      ],
+      "children": [
+        {
+          "jobid": 292,
+          "creation_delay": 0,
+          "dataset_type": "healsparse_map"
+        },
+        {
+          "jobid": 336,
+          "creation_delay": 0,
+          "dataset_type": "healsparse_map"
+        }
+      ]
+    },
+    {
+      "jobid": 288,
+      "task": "makeDeepCoaddInputSummaryTract",
+      "resource_key": "makeDeepCoaddInputSummaryTract:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 1,
+        "band": "i"
+      },
+      "cores": 1,
+      "flops": 500000000,
+      "creation_time": null,
+      "input_files": [
+        "deep_coadd_visit_selection_q153.dat",
+        "deep_coadd_visit_selection_q187.dat",
+        "deep_coadd_visit_selection_q221.dat",
+        "deep_coadd_visit_selection_q255.dat"
+      ],
+      "input_file_sizes": {
+        "deep_coadd_visit_selection_q153.dat": 10000000,
+        "deep_coadd_visit_selection_q187.dat": 10000000,
+        "deep_coadd_visit_selection_q221.dat": 10000000,
+        "deep_coadd_visit_selection_q255.dat": 10000000
+      },
+      "output_files": {
+        "coadd_input_summary_q288.dat": 5000000
+      },
+      "parents": [
+        153,
+        187,
+        221,
+        255
+      ],
+      "children": [
+        {
+          "jobid": 289,
+          "creation_delay": 0,
+          "dataset_type": "coadd_input_summary"
+        }
+      ]
+    },
+    {
+      "jobid": 289,
+      "task": "makeDeepCoaddInputSummary",
+      "resource_key": "makeDeepCoaddInputSummary:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam"
+      },
+      "cores": 1,
+      "flops": 500000000,
+      "creation_time": null,
+      "input_files": [
+        "coadd_input_summary_q278.dat",
+        "coadd_input_summary_q280.dat",
+        "coadd_input_summary_q282.dat",
+        "coadd_input_summary_q284.dat",
+        "coadd_input_summary_q286.dat",
+        "coadd_input_summary_q288.dat"
+      ],
+      "input_file_sizes": {
+        "coadd_input_summary_q278.dat": 5000000,
+        "coadd_input_summary_q280.dat": 5000000,
+        "coadd_input_summary_q282.dat": 5000000,
+        "coadd_input_summary_q284.dat": 5000000,
+        "coadd_input_summary_q286.dat": 5000000,
+        "coadd_input_summary_q288.dat": 5000000
+      },
+      "output_files": {
+        "coadd_input_summary_q289.dat": 5000000
+      },
+      "parents": [
+        278,
+        280,
+        282,
+        284,
+        286,
+        288
+      ],
+      "children": []
+    },
+    {
+      "jobid": 290,
+      "task": "consolidateHealSparsePropertyMaps",
+      "resource_key": "consolidateHealSparsePropertyMaps:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "band": "g"
+      },
+      "cores": 1,
+      "flops": 2000000000,
+      "creation_time": null,
+      "input_files": [
+        "healsparse_map_q277.dat",
+        "healsparse_map_q283.dat"
+      ],
+      "input_file_sizes": {
+        "healsparse_map_q277.dat": 20000000,
+        "healsparse_map_q283.dat": 20000000
+      },
+      "output_files": {
+        "healsparse_consolidated_q290.dat": 40000000
+      },
+      "parents": [
+        277,
+        283
+      ],
+      "children": [
+        {
+          "jobid": 352,
+          "creation_delay": 0,
+          "dataset_type": "healsparse_consolidated"
+        }
+      ]
+    },
+    {
+      "jobid": 291,
+      "task": "consolidateHealSparsePropertyMaps",
+      "resource_key": "consolidateHealSparsePropertyMaps:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "band": "r"
+      },
+      "cores": 1,
+      "flops": 2000000000,
+      "creation_time": null,
+      "input_files": [
+        "healsparse_map_q279.dat",
+        "healsparse_map_q285.dat"
+      ],
+      "input_file_sizes": {
+        "healsparse_map_q279.dat": 20000000,
+        "healsparse_map_q285.dat": 20000000
+      },
+      "output_files": {
+        "healsparse_consolidated_q291.dat": 40000000
+      },
+      "parents": [
+        279,
+        285
+      ],
+      "children": [
+        {
+          "jobid": 355,
+          "creation_delay": 0,
+          "dataset_type": "healsparse_consolidated"
+        }
+      ]
+    },
+    {
+      "jobid": 292,
+      "task": "consolidateHealSparsePropertyMaps",
+      "resource_key": "consolidateHealSparsePropertyMaps:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "band": "i"
+      },
+      "cores": 1,
+      "flops": 2000000000,
+      "creation_time": null,
+      "input_files": [
+        "healsparse_map_q281.dat",
+        "healsparse_map_q287.dat"
+      ],
+      "input_file_sizes": {
+        "healsparse_map_q281.dat": 20000000,
+        "healsparse_map_q287.dat": 20000000
+      },
+      "output_files": {
+        "healsparse_consolidated_q292.dat": 40000000
+      },
+      "parents": [
+        281,
+        287
+      ],
+      "children": [
+        {
+          "jobid": 358,
+          "creation_delay": 0,
+          "dataset_type": "healsparse_consolidated"
+        }
+      ]
+    },
+    {
+      "jobid": 293,
+      "task": "analyzeObjectTableCore",
+      "resource_key": "analyzeObjectTableCore:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 0
+      },
+      "cores": 1,
+      "flops": 2000000000,
+      "creation_time": null,
+      "input_files": [
+        "object_q137.dat"
+      ],
+      "input_file_sizes": {
+        "object_q137.dat": 40000000
+      },
+      "output_files": {
+        "qa_metrics_q293.dat": 500000,
+        "qa_plot_bundle_q293.dat": 30000000
+      },
+      "parents": [
+        137
+      ],
+      "children": [
+        {
+          "jobid": 344,
+          "creation_delay": 0,
+          "dataset_type": "qa_metrics"
+        }
+      ]
+    },
+    {
+      "jobid": 294,
+      "task": "analyzeObjectParentTableCore",
+      "resource_key": "analyzeObjectParentTableCore:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 0
+      },
+      "cores": 1,
+      "flops": 2000000000,
+      "creation_time": null,
+      "input_files": [
+        "object_parent_q138.dat"
+      ],
+      "input_file_sizes": {
+        "object_parent_q138.dat": 40000000
+      },
+      "output_files": {
+        "qa_metrics_q294.dat": 500000
+      },
+      "parents": [
+        138
+      ],
+      "children": [
+        {
+          "jobid": 346,
+          "creation_delay": 0,
+          "dataset_type": "qa_metrics"
+        }
+      ]
+    },
+    {
+      "jobid": 295,
+      "task": "refCatObjectTract",
+      "resource_key": "refCatObjectTract:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 0
+      },
+      "cores": 1,
+      "flops": 1500000000,
+      "creation_time": null,
+      "input_files": [
+        "object_q137.dat"
+      ],
+      "input_file_sizes": {
+        "object_q137.dat": 40000000
+      },
+      "output_files": {
+        "qa_metrics_q295.dat": 500000
+      },
+      "parents": [
+        137
+      ],
+      "children": [
+        {
+          "jobid": 348,
+          "creation_delay": 0,
+          "dataset_type": "qa_metrics"
+        }
+      ]
+    },
+    {
+      "jobid": 296,
+      "task": "validateObjectTableCore",
+      "resource_key": "validateObjectTableCore:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 0
+      },
+      "cores": 1,
+      "flops": 1000000000,
+      "creation_time": null,
+      "input_files": [
+        "object_q137.dat"
+      ],
+      "input_file_sizes": {
+        "object_q137.dat": 40000000
+      },
+      "output_files": {
+        "qa_metrics_q296.dat": 500000
+      },
+      "parents": [
+        137
+      ],
+      "children": []
+    },
+    {
+      "jobid": 297,
+      "task": "plotPropertyMapTract",
+      "resource_key": "plotPropertyMapTract:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 0,
+        "band": "g"
+      },
+      "cores": 1,
+      "flops": 800000000,
+      "creation_time": null,
+      "input_files": [
+        "healsparse_map_q277.dat"
+      ],
+      "input_file_sizes": {
+        "healsparse_map_q277.dat": 20000000
+      },
+      "output_files": {
+        "qa_plot_bundle_q297.dat": 30000000
+      },
+      "parents": [
+        277
+      ],
+      "children": []
+    },
+    {
+      "jobid": 298,
+      "task": "makeBinnedDeepCoaddImage",
+      "resource_key": "makeBinnedDeepCoaddImage:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 0,
+        "patch": 0,
+        "band": "g"
+      },
+      "cores": 1,
+      "flops": 600000000,
+      "creation_time": null,
+      "input_files": [
+        "deep_coadd_q6.dat"
+      ],
+      "input_file_sizes": {
+        "deep_coadd_q6.dat": 400000000
+      },
+      "output_files": {
+        "binned_image_q298.dat": 15000000
+      },
+      "parents": [
+        6
+      ],
+      "children": [
+        {
+          "jobid": 302,
+          "creation_delay": 0,
+          "dataset_type": "binned_image"
+        }
+      ]
+    },
+    {
+      "jobid": 299,
+      "task": "makeBinnedDeepCoaddImage",
+      "resource_key": "makeBinnedDeepCoaddImage:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 0,
+        "patch": 1,
+        "band": "g"
+      },
+      "cores": 1,
+      "flops": 600000000,
+      "creation_time": null,
+      "input_files": [
+        "deep_coadd_q40.dat"
+      ],
+      "input_file_sizes": {
+        "deep_coadd_q40.dat": 400000000
+      },
+      "output_files": {
+        "binned_image_q299.dat": 15000000
+      },
+      "parents": [
+        40
+      ],
+      "children": [
+        {
+          "jobid": 302,
+          "creation_delay": 0,
+          "dataset_type": "binned_image"
+        }
+      ]
+    },
+    {
+      "jobid": 300,
+      "task": "makeBinnedDeepCoaddImage",
+      "resource_key": "makeBinnedDeepCoaddImage:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 0,
+        "patch": 2,
+        "band": "g"
+      },
+      "cores": 1,
+      "flops": 600000000,
+      "creation_time": null,
+      "input_files": [
+        "deep_coadd_q74.dat"
+      ],
+      "input_file_sizes": {
+        "deep_coadd_q74.dat": 400000000
+      },
+      "output_files": {
+        "binned_image_q300.dat": 15000000
+      },
+      "parents": [
+        74
+      ],
+      "children": [
+        {
+          "jobid": 302,
+          "creation_delay": 0,
+          "dataset_type": "binned_image"
+        }
+      ]
+    },
+    {
+      "jobid": 301,
+      "task": "makeBinnedDeepCoaddImage",
+      "resource_key": "makeBinnedDeepCoaddImage:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 0,
+        "patch": 3,
+        "band": "g"
+      },
+      "cores": 1,
+      "flops": 600000000,
+      "creation_time": null,
+      "input_files": [
+        "deep_coadd_q108.dat"
+      ],
+      "input_file_sizes": {
+        "deep_coadd_q108.dat": 400000000
+      },
+      "output_files": {
+        "binned_image_q301.dat": 15000000
+      },
+      "parents": [
+        108
+      ],
+      "children": [
+        {
+          "jobid": 302,
+          "creation_delay": 0,
+          "dataset_type": "binned_image"
+        }
+      ]
+    },
+    {
+      "jobid": 302,
+      "task": "makeWholeTractDeepCoaddImage",
+      "resource_key": "makeWholeTractDeepCoaddImage:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 0,
+        "band": "g"
+      },
+      "cores": 1,
+      "flops": 2000000000,
+      "creation_time": null,
+      "input_files": [
+        "binned_image_q298.dat",
+        "binned_image_q299.dat",
+        "binned_image_q300.dat",
+        "binned_image_q301.dat"
+      ],
+      "input_file_sizes": {
+        "binned_image_q298.dat": 15000000,
+        "binned_image_q299.dat": 15000000,
+        "binned_image_q300.dat": 15000000,
+        "binned_image_q301.dat": 15000000
+      },
+      "output_files": {
+        "whole_tract_image_q302.dat": 60000000
+      },
+      "parents": [
+        298,
+        299,
+        300,
+        301
+      ],
+      "children": [
+        {
+          "jobid": 303,
+          "creation_delay": 0,
+          "dataset_type": "whole_tract_image"
+        }
+      ]
+    },
+    {
+      "jobid": 303,
+      "task": "aggregateDeepCoaddMaskFractions",
+      "resource_key": "aggregateDeepCoaddMaskFractions:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 0,
+        "band": "g"
+      },
+      "cores": 1,
+      "flops": 500000000,
+      "creation_time": null,
+      "input_files": [
+        "whole_tract_image_q302.dat"
+      ],
+      "input_file_sizes": {
+        "whole_tract_image_q302.dat": 60000000
+      },
+      "output_files": {
+        "qa_metrics_q303.dat": 500000
+      },
+      "parents": [
+        302
+      ],
+      "children": [
+        {
+          "jobid": 350,
+          "creation_delay": 0,
+          "dataset_type": "qa_metrics"
+        }
+      ]
+    },
+    {
+      "jobid": 304,
+      "task": "plotPropertyMapTract",
+      "resource_key": "plotPropertyMapTract:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 0,
+        "band": "r"
+      },
+      "cores": 1,
+      "flops": 800000000,
+      "creation_time": null,
+      "input_files": [
+        "healsparse_map_q279.dat"
+      ],
+      "input_file_sizes": {
+        "healsparse_map_q279.dat": 20000000
+      },
+      "output_files": {
+        "qa_plot_bundle_q304.dat": 30000000
+      },
+      "parents": [
+        279
+      ],
+      "children": []
+    },
+    {
+      "jobid": 305,
+      "task": "makeBinnedDeepCoaddImage",
+      "resource_key": "makeBinnedDeepCoaddImage:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 0,
+        "patch": 0,
+        "band": "r"
+      },
+      "cores": 1,
+      "flops": 600000000,
+      "creation_time": null,
+      "input_files": [
+        "deep_coadd_q13.dat"
+      ],
+      "input_file_sizes": {
+        "deep_coadd_q13.dat": 400000000
+      },
+      "output_files": {
+        "binned_image_q305.dat": 15000000
+      },
+      "parents": [
+        13
+      ],
+      "children": [
+        {
+          "jobid": 309,
+          "creation_delay": 0,
+          "dataset_type": "binned_image"
+        }
+      ]
+    },
+    {
+      "jobid": 306,
+      "task": "makeBinnedDeepCoaddImage",
+      "resource_key": "makeBinnedDeepCoaddImage:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 0,
+        "patch": 1,
+        "band": "r"
+      },
+      "cores": 1,
+      "flops": 600000000,
+      "creation_time": null,
+      "input_files": [
+        "deep_coadd_q47.dat"
+      ],
+      "input_file_sizes": {
+        "deep_coadd_q47.dat": 400000000
+      },
+      "output_files": {
+        "binned_image_q306.dat": 15000000
+      },
+      "parents": [
+        47
+      ],
+      "children": [
+        {
+          "jobid": 309,
+          "creation_delay": 0,
+          "dataset_type": "binned_image"
+        }
+      ]
+    },
+    {
+      "jobid": 307,
+      "task": "makeBinnedDeepCoaddImage",
+      "resource_key": "makeBinnedDeepCoaddImage:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 0,
+        "patch": 2,
+        "band": "r"
+      },
+      "cores": 1,
+      "flops": 600000000,
+      "creation_time": null,
+      "input_files": [
+        "deep_coadd_q81.dat"
+      ],
+      "input_file_sizes": {
+        "deep_coadd_q81.dat": 400000000
+      },
+      "output_files": {
+        "binned_image_q307.dat": 15000000
+      },
+      "parents": [
+        81
+      ],
+      "children": [
+        {
+          "jobid": 309,
+          "creation_delay": 0,
+          "dataset_type": "binned_image"
+        }
+      ]
+    },
+    {
+      "jobid": 308,
+      "task": "makeBinnedDeepCoaddImage",
+      "resource_key": "makeBinnedDeepCoaddImage:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 0,
+        "patch": 3,
+        "band": "r"
+      },
+      "cores": 1,
+      "flops": 600000000,
+      "creation_time": null,
+      "input_files": [
+        "deep_coadd_q115.dat"
+      ],
+      "input_file_sizes": {
+        "deep_coadd_q115.dat": 400000000
+      },
+      "output_files": {
+        "binned_image_q308.dat": 15000000
+      },
+      "parents": [
+        115
+      ],
+      "children": [
+        {
+          "jobid": 309,
+          "creation_delay": 0,
+          "dataset_type": "binned_image"
+        }
+      ]
+    },
+    {
+      "jobid": 309,
+      "task": "makeWholeTractDeepCoaddImage",
+      "resource_key": "makeWholeTractDeepCoaddImage:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 0,
+        "band": "r"
+      },
+      "cores": 1,
+      "flops": 2000000000,
+      "creation_time": null,
+      "input_files": [
+        "binned_image_q305.dat",
+        "binned_image_q306.dat",
+        "binned_image_q307.dat",
+        "binned_image_q308.dat"
+      ],
+      "input_file_sizes": {
+        "binned_image_q305.dat": 15000000,
+        "binned_image_q306.dat": 15000000,
+        "binned_image_q307.dat": 15000000,
+        "binned_image_q308.dat": 15000000
+      },
+      "output_files": {
+        "whole_tract_image_q309.dat": 60000000
+      },
+      "parents": [
+        305,
+        306,
+        307,
+        308
+      ],
+      "children": [
+        {
+          "jobid": 310,
+          "creation_delay": 0,
+          "dataset_type": "whole_tract_image"
+        }
+      ]
+    },
+    {
+      "jobid": 310,
+      "task": "aggregateDeepCoaddMaskFractions",
+      "resource_key": "aggregateDeepCoaddMaskFractions:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 0,
+        "band": "r"
+      },
+      "cores": 1,
+      "flops": 500000000,
+      "creation_time": null,
+      "input_files": [
+        "whole_tract_image_q309.dat"
+      ],
+      "input_file_sizes": {
+        "whole_tract_image_q309.dat": 60000000
+      },
+      "output_files": {
+        "qa_metrics_q310.dat": 500000
+      },
+      "parents": [
+        309
+      ],
+      "children": [
+        {
+          "jobid": 353,
+          "creation_delay": 0,
+          "dataset_type": "qa_metrics"
+        }
+      ]
+    },
+    {
+      "jobid": 311,
+      "task": "plotPropertyMapTract",
+      "resource_key": "plotPropertyMapTract:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 0,
+        "band": "i"
+      },
+      "cores": 1,
+      "flops": 800000000,
+      "creation_time": null,
+      "input_files": [
+        "healsparse_map_q281.dat"
+      ],
+      "input_file_sizes": {
+        "healsparse_map_q281.dat": 20000000
+      },
+      "output_files": {
+        "qa_plot_bundle_q311.dat": 30000000
+      },
+      "parents": [
+        281
+      ],
+      "children": []
+    },
+    {
+      "jobid": 312,
+      "task": "makeBinnedDeepCoaddImage",
+      "resource_key": "makeBinnedDeepCoaddImage:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 0,
+        "patch": 0,
+        "band": "i"
+      },
+      "cores": 1,
+      "flops": 600000000,
+      "creation_time": null,
+      "input_files": [
+        "deep_coadd_q20.dat"
+      ],
+      "input_file_sizes": {
+        "deep_coadd_q20.dat": 400000000
+      },
+      "output_files": {
+        "binned_image_q312.dat": 15000000
+      },
+      "parents": [
+        20
+      ],
+      "children": [
+        {
+          "jobid": 316,
+          "creation_delay": 0,
+          "dataset_type": "binned_image"
+        }
+      ]
+    },
+    {
+      "jobid": 313,
+      "task": "makeBinnedDeepCoaddImage",
+      "resource_key": "makeBinnedDeepCoaddImage:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 0,
+        "patch": 1,
+        "band": "i"
+      },
+      "cores": 1,
+      "flops": 600000000,
+      "creation_time": null,
+      "input_files": [
+        "deep_coadd_q54.dat"
+      ],
+      "input_file_sizes": {
+        "deep_coadd_q54.dat": 400000000
+      },
+      "output_files": {
+        "binned_image_q313.dat": 15000000
+      },
+      "parents": [
+        54
+      ],
+      "children": [
+        {
+          "jobid": 316,
+          "creation_delay": 0,
+          "dataset_type": "binned_image"
+        }
+      ]
+    },
+    {
+      "jobid": 314,
+      "task": "makeBinnedDeepCoaddImage",
+      "resource_key": "makeBinnedDeepCoaddImage:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 0,
+        "patch": 2,
+        "band": "i"
+      },
+      "cores": 1,
+      "flops": 600000000,
+      "creation_time": null,
+      "input_files": [
+        "deep_coadd_q88.dat"
+      ],
+      "input_file_sizes": {
+        "deep_coadd_q88.dat": 400000000
+      },
+      "output_files": {
+        "binned_image_q314.dat": 15000000
+      },
+      "parents": [
+        88
+      ],
+      "children": [
+        {
+          "jobid": 316,
+          "creation_delay": 0,
+          "dataset_type": "binned_image"
+        }
+      ]
+    },
+    {
+      "jobid": 315,
+      "task": "makeBinnedDeepCoaddImage",
+      "resource_key": "makeBinnedDeepCoaddImage:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 0,
+        "patch": 3,
+        "band": "i"
+      },
+      "cores": 1,
+      "flops": 600000000,
+      "creation_time": null,
+      "input_files": [
+        "deep_coadd_q122.dat"
+      ],
+      "input_file_sizes": {
+        "deep_coadd_q122.dat": 400000000
+      },
+      "output_files": {
+        "binned_image_q315.dat": 15000000
+      },
+      "parents": [
+        122
+      ],
+      "children": [
+        {
+          "jobid": 316,
+          "creation_delay": 0,
+          "dataset_type": "binned_image"
+        }
+      ]
+    },
+    {
+      "jobid": 316,
+      "task": "makeWholeTractDeepCoaddImage",
+      "resource_key": "makeWholeTractDeepCoaddImage:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 0,
+        "band": "i"
+      },
+      "cores": 1,
+      "flops": 2000000000,
+      "creation_time": null,
+      "input_files": [
+        "binned_image_q312.dat",
+        "binned_image_q313.dat",
+        "binned_image_q314.dat",
+        "binned_image_q315.dat"
+      ],
+      "input_file_sizes": {
+        "binned_image_q312.dat": 15000000,
+        "binned_image_q313.dat": 15000000,
+        "binned_image_q314.dat": 15000000,
+        "binned_image_q315.dat": 15000000
+      },
+      "output_files": {
+        "whole_tract_image_q316.dat": 60000000
+      },
+      "parents": [
+        312,
+        313,
+        314,
+        315
+      ],
+      "children": [
+        {
+          "jobid": 317,
+          "creation_delay": 0,
+          "dataset_type": "whole_tract_image"
+        }
+      ]
+    },
+    {
+      "jobid": 317,
+      "task": "aggregateDeepCoaddMaskFractions",
+      "resource_key": "aggregateDeepCoaddMaskFractions:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 0,
+        "band": "i"
+      },
+      "cores": 1,
+      "flops": 500000000,
+      "creation_time": null,
+      "input_files": [
+        "whole_tract_image_q316.dat"
+      ],
+      "input_file_sizes": {
+        "whole_tract_image_q316.dat": 60000000
+      },
+      "output_files": {
+        "qa_metrics_q317.dat": 500000
+      },
+      "parents": [
+        316
+      ],
+      "children": [
+        {
+          "jobid": 356,
+          "creation_delay": 0,
+          "dataset_type": "qa_metrics"
+        }
+      ]
+    },
+    {
+      "jobid": 318,
+      "task": "analyzeObjectTableCore",
+      "resource_key": "analyzeObjectTableCore:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 1
+      },
+      "cores": 1,
+      "flops": 2000000000,
+      "creation_time": null,
+      "input_files": [
+        "object_q275.dat"
+      ],
+      "input_file_sizes": {
+        "object_q275.dat": 40000000
+      },
+      "output_files": {
+        "qa_metrics_q318.dat": 500000,
+        "qa_plot_bundle_q318.dat": 30000000
+      },
+      "parents": [
+        275
+      ],
+      "children": [
+        {
+          "jobid": 344,
+          "creation_delay": 0,
+          "dataset_type": "qa_metrics"
+        }
+      ]
+    },
+    {
+      "jobid": 319,
+      "task": "analyzeObjectParentTableCore",
+      "resource_key": "analyzeObjectParentTableCore:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 1
+      },
+      "cores": 1,
+      "flops": 2000000000,
+      "creation_time": null,
+      "input_files": [
+        "object_parent_q276.dat"
+      ],
+      "input_file_sizes": {
+        "object_parent_q276.dat": 40000000
+      },
+      "output_files": {
+        "qa_metrics_q319.dat": 500000
+      },
+      "parents": [
+        276
+      ],
+      "children": [
+        {
+          "jobid": 346,
+          "creation_delay": 0,
+          "dataset_type": "qa_metrics"
+        }
+      ]
+    },
+    {
+      "jobid": 320,
+      "task": "refCatObjectTract",
+      "resource_key": "refCatObjectTract:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 1
+      },
+      "cores": 1,
+      "flops": 1500000000,
+      "creation_time": null,
+      "input_files": [
+        "object_q275.dat"
+      ],
+      "input_file_sizes": {
+        "object_q275.dat": 40000000
+      },
+      "output_files": {
+        "qa_metrics_q320.dat": 500000
+      },
+      "parents": [
+        275
+      ],
+      "children": [
+        {
+          "jobid": 348,
+          "creation_delay": 0,
+          "dataset_type": "qa_metrics"
+        }
+      ]
+    },
+    {
+      "jobid": 321,
+      "task": "validateObjectTableCore",
+      "resource_key": "validateObjectTableCore:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 1
+      },
+      "cores": 1,
+      "flops": 1000000000,
+      "creation_time": null,
+      "input_files": [
+        "object_q275.dat"
+      ],
+      "input_file_sizes": {
+        "object_q275.dat": 40000000
+      },
+      "output_files": {
+        "qa_metrics_q321.dat": 500000
+      },
+      "parents": [
+        275
+      ],
+      "children": []
+    },
+    {
+      "jobid": 322,
+      "task": "plotPropertyMapTract",
+      "resource_key": "plotPropertyMapTract:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 1,
+        "band": "g"
+      },
+      "cores": 1,
+      "flops": 800000000,
+      "creation_time": null,
+      "input_files": [
+        "healsparse_map_q283.dat"
+      ],
+      "input_file_sizes": {
+        "healsparse_map_q283.dat": 20000000
+      },
+      "output_files": {
+        "qa_plot_bundle_q322.dat": 30000000
+      },
+      "parents": [
+        283
+      ],
+      "children": []
+    },
+    {
+      "jobid": 323,
+      "task": "makeBinnedDeepCoaddImage",
+      "resource_key": "makeBinnedDeepCoaddImage:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 1,
+        "patch": 0,
+        "band": "g"
+      },
+      "cores": 1,
+      "flops": 600000000,
+      "creation_time": null,
+      "input_files": [
+        "deep_coadd_q144.dat"
+      ],
+      "input_file_sizes": {
+        "deep_coadd_q144.dat": 400000000
+      },
+      "output_files": {
+        "binned_image_q323.dat": 15000000
+      },
+      "parents": [
+        144
+      ],
+      "children": [
+        {
+          "jobid": 327,
+          "creation_delay": 0,
+          "dataset_type": "binned_image"
+        }
+      ]
+    },
+    {
+      "jobid": 324,
+      "task": "makeBinnedDeepCoaddImage",
+      "resource_key": "makeBinnedDeepCoaddImage:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 1,
+        "patch": 1,
+        "band": "g"
+      },
+      "cores": 1,
+      "flops": 600000000,
+      "creation_time": null,
+      "input_files": [
+        "deep_coadd_q178.dat"
+      ],
+      "input_file_sizes": {
+        "deep_coadd_q178.dat": 400000000
+      },
+      "output_files": {
+        "binned_image_q324.dat": 15000000
+      },
+      "parents": [
+        178
+      ],
+      "children": [
+        {
+          "jobid": 327,
+          "creation_delay": 0,
+          "dataset_type": "binned_image"
+        }
+      ]
+    },
+    {
+      "jobid": 325,
+      "task": "makeBinnedDeepCoaddImage",
+      "resource_key": "makeBinnedDeepCoaddImage:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 1,
+        "patch": 2,
+        "band": "g"
+      },
+      "cores": 1,
+      "flops": 600000000,
+      "creation_time": null,
+      "input_files": [
+        "deep_coadd_q212.dat"
+      ],
+      "input_file_sizes": {
+        "deep_coadd_q212.dat": 400000000
+      },
+      "output_files": {
+        "binned_image_q325.dat": 15000000
+      },
+      "parents": [
+        212
+      ],
+      "children": [
+        {
+          "jobid": 327,
+          "creation_delay": 0,
+          "dataset_type": "binned_image"
+        }
+      ]
+    },
+    {
+      "jobid": 326,
+      "task": "makeBinnedDeepCoaddImage",
+      "resource_key": "makeBinnedDeepCoaddImage:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 1,
+        "patch": 3,
+        "band": "g"
+      },
+      "cores": 1,
+      "flops": 600000000,
+      "creation_time": null,
+      "input_files": [
+        "deep_coadd_q246.dat"
+      ],
+      "input_file_sizes": {
+        "deep_coadd_q246.dat": 400000000
+      },
+      "output_files": {
+        "binned_image_q326.dat": 15000000
+      },
+      "parents": [
+        246
+      ],
+      "children": [
+        {
+          "jobid": 327,
+          "creation_delay": 0,
+          "dataset_type": "binned_image"
+        }
+      ]
+    },
+    {
+      "jobid": 327,
+      "task": "makeWholeTractDeepCoaddImage",
+      "resource_key": "makeWholeTractDeepCoaddImage:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 1,
+        "band": "g"
+      },
+      "cores": 1,
+      "flops": 2000000000,
+      "creation_time": null,
+      "input_files": [
+        "binned_image_q323.dat",
+        "binned_image_q324.dat",
+        "binned_image_q325.dat",
+        "binned_image_q326.dat"
+      ],
+      "input_file_sizes": {
+        "binned_image_q323.dat": 15000000,
+        "binned_image_q324.dat": 15000000,
+        "binned_image_q325.dat": 15000000,
+        "binned_image_q326.dat": 15000000
+      },
+      "output_files": {
+        "whole_tract_image_q327.dat": 60000000
+      },
+      "parents": [
+        323,
+        324,
+        325,
+        326
+      ],
+      "children": [
+        {
+          "jobid": 328,
+          "creation_delay": 0,
+          "dataset_type": "whole_tract_image"
+        }
+      ]
+    },
+    {
+      "jobid": 328,
+      "task": "aggregateDeepCoaddMaskFractions",
+      "resource_key": "aggregateDeepCoaddMaskFractions:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 1,
+        "band": "g"
+      },
+      "cores": 1,
+      "flops": 500000000,
+      "creation_time": null,
+      "input_files": [
+        "whole_tract_image_q327.dat"
+      ],
+      "input_file_sizes": {
+        "whole_tract_image_q327.dat": 60000000
+      },
+      "output_files": {
+        "qa_metrics_q328.dat": 500000
+      },
+      "parents": [
+        327
+      ],
+      "children": [
+        {
+          "jobid": 350,
+          "creation_delay": 0,
+          "dataset_type": "qa_metrics"
+        }
+      ]
+    },
+    {
+      "jobid": 329,
+      "task": "plotPropertyMapTract",
+      "resource_key": "plotPropertyMapTract:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 1,
+        "band": "r"
+      },
+      "cores": 1,
+      "flops": 800000000,
+      "creation_time": null,
+      "input_files": [
+        "healsparse_map_q285.dat"
+      ],
+      "input_file_sizes": {
+        "healsparse_map_q285.dat": 20000000
+      },
+      "output_files": {
+        "qa_plot_bundle_q329.dat": 30000000
+      },
+      "parents": [
+        285
+      ],
+      "children": []
+    },
+    {
+      "jobid": 330,
+      "task": "makeBinnedDeepCoaddImage",
+      "resource_key": "makeBinnedDeepCoaddImage:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 1,
+        "patch": 0,
+        "band": "r"
+      },
+      "cores": 1,
+      "flops": 600000000,
+      "creation_time": null,
+      "input_files": [
+        "deep_coadd_q151.dat"
+      ],
+      "input_file_sizes": {
+        "deep_coadd_q151.dat": 400000000
+      },
+      "output_files": {
+        "binned_image_q330.dat": 15000000
+      },
+      "parents": [
+        151
+      ],
+      "children": [
+        {
+          "jobid": 334,
+          "creation_delay": 0,
+          "dataset_type": "binned_image"
+        }
+      ]
+    },
+    {
+      "jobid": 331,
+      "task": "makeBinnedDeepCoaddImage",
+      "resource_key": "makeBinnedDeepCoaddImage:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 1,
+        "patch": 1,
+        "band": "r"
+      },
+      "cores": 1,
+      "flops": 600000000,
+      "creation_time": null,
+      "input_files": [
+        "deep_coadd_q185.dat"
+      ],
+      "input_file_sizes": {
+        "deep_coadd_q185.dat": 400000000
+      },
+      "output_files": {
+        "binned_image_q331.dat": 15000000
+      },
+      "parents": [
+        185
+      ],
+      "children": [
+        {
+          "jobid": 334,
+          "creation_delay": 0,
+          "dataset_type": "binned_image"
+        }
+      ]
+    },
+    {
+      "jobid": 332,
+      "task": "makeBinnedDeepCoaddImage",
+      "resource_key": "makeBinnedDeepCoaddImage:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 1,
+        "patch": 2,
+        "band": "r"
+      },
+      "cores": 1,
+      "flops": 600000000,
+      "creation_time": null,
+      "input_files": [
+        "deep_coadd_q219.dat"
+      ],
+      "input_file_sizes": {
+        "deep_coadd_q219.dat": 400000000
+      },
+      "output_files": {
+        "binned_image_q332.dat": 15000000
+      },
+      "parents": [
+        219
+      ],
+      "children": [
+        {
+          "jobid": 334,
+          "creation_delay": 0,
+          "dataset_type": "binned_image"
+        }
+      ]
+    },
+    {
+      "jobid": 333,
+      "task": "makeBinnedDeepCoaddImage",
+      "resource_key": "makeBinnedDeepCoaddImage:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 1,
+        "patch": 3,
+        "band": "r"
+      },
+      "cores": 1,
+      "flops": 600000000,
+      "creation_time": null,
+      "input_files": [
+        "deep_coadd_q253.dat"
+      ],
+      "input_file_sizes": {
+        "deep_coadd_q253.dat": 400000000
+      },
+      "output_files": {
+        "binned_image_q333.dat": 15000000
+      },
+      "parents": [
+        253
+      ],
+      "children": [
+        {
+          "jobid": 334,
+          "creation_delay": 0,
+          "dataset_type": "binned_image"
+        }
+      ]
+    },
+    {
+      "jobid": 334,
+      "task": "makeWholeTractDeepCoaddImage",
+      "resource_key": "makeWholeTractDeepCoaddImage:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 1,
+        "band": "r"
+      },
+      "cores": 1,
+      "flops": 2000000000,
+      "creation_time": null,
+      "input_files": [
+        "binned_image_q330.dat",
+        "binned_image_q331.dat",
+        "binned_image_q332.dat",
+        "binned_image_q333.dat"
+      ],
+      "input_file_sizes": {
+        "binned_image_q330.dat": 15000000,
+        "binned_image_q331.dat": 15000000,
+        "binned_image_q332.dat": 15000000,
+        "binned_image_q333.dat": 15000000
+      },
+      "output_files": {
+        "whole_tract_image_q334.dat": 60000000
+      },
+      "parents": [
+        330,
+        331,
+        332,
+        333
+      ],
+      "children": [
+        {
+          "jobid": 335,
+          "creation_delay": 0,
+          "dataset_type": "whole_tract_image"
+        }
+      ]
+    },
+    {
+      "jobid": 335,
+      "task": "aggregateDeepCoaddMaskFractions",
+      "resource_key": "aggregateDeepCoaddMaskFractions:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 1,
+        "band": "r"
+      },
+      "cores": 1,
+      "flops": 500000000,
+      "creation_time": null,
+      "input_files": [
+        "whole_tract_image_q334.dat"
+      ],
+      "input_file_sizes": {
+        "whole_tract_image_q334.dat": 60000000
+      },
+      "output_files": {
+        "qa_metrics_q335.dat": 500000
+      },
+      "parents": [
+        334
+      ],
+      "children": [
+        {
+          "jobid": 353,
+          "creation_delay": 0,
+          "dataset_type": "qa_metrics"
+        }
+      ]
+    },
+    {
+      "jobid": 336,
+      "task": "plotPropertyMapTract",
+      "resource_key": "plotPropertyMapTract:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 1,
+        "band": "i"
+      },
+      "cores": 1,
+      "flops": 800000000,
+      "creation_time": null,
+      "input_files": [
+        "healsparse_map_q287.dat"
+      ],
+      "input_file_sizes": {
+        "healsparse_map_q287.dat": 20000000
+      },
+      "output_files": {
+        "qa_plot_bundle_q336.dat": 30000000
+      },
+      "parents": [
+        287
+      ],
+      "children": []
+    },
+    {
+      "jobid": 337,
+      "task": "makeBinnedDeepCoaddImage",
+      "resource_key": "makeBinnedDeepCoaddImage:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 1,
+        "patch": 0,
+        "band": "i"
+      },
+      "cores": 1,
+      "flops": 600000000,
+      "creation_time": null,
+      "input_files": [
+        "deep_coadd_q158.dat"
+      ],
+      "input_file_sizes": {
+        "deep_coadd_q158.dat": 400000000
+      },
+      "output_files": {
+        "binned_image_q337.dat": 15000000
+      },
+      "parents": [
+        158
+      ],
+      "children": [
+        {
+          "jobid": 341,
+          "creation_delay": 0,
+          "dataset_type": "binned_image"
+        }
+      ]
+    },
+    {
+      "jobid": 338,
+      "task": "makeBinnedDeepCoaddImage",
+      "resource_key": "makeBinnedDeepCoaddImage:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 1,
+        "patch": 1,
+        "band": "i"
+      },
+      "cores": 1,
+      "flops": 600000000,
+      "creation_time": null,
+      "input_files": [
+        "deep_coadd_q192.dat"
+      ],
+      "input_file_sizes": {
+        "deep_coadd_q192.dat": 400000000
+      },
+      "output_files": {
+        "binned_image_q338.dat": 15000000
+      },
+      "parents": [
+        192
+      ],
+      "children": [
+        {
+          "jobid": 341,
+          "creation_delay": 0,
+          "dataset_type": "binned_image"
+        }
+      ]
+    },
+    {
+      "jobid": 339,
+      "task": "makeBinnedDeepCoaddImage",
+      "resource_key": "makeBinnedDeepCoaddImage:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 1,
+        "patch": 2,
+        "band": "i"
+      },
+      "cores": 1,
+      "flops": 600000000,
+      "creation_time": null,
+      "input_files": [
+        "deep_coadd_q226.dat"
+      ],
+      "input_file_sizes": {
+        "deep_coadd_q226.dat": 400000000
+      },
+      "output_files": {
+        "binned_image_q339.dat": 15000000
+      },
+      "parents": [
+        226
+      ],
+      "children": [
+        {
+          "jobid": 341,
+          "creation_delay": 0,
+          "dataset_type": "binned_image"
+        }
+      ]
+    },
+    {
+      "jobid": 340,
+      "task": "makeBinnedDeepCoaddImage",
+      "resource_key": "makeBinnedDeepCoaddImage:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 1,
+        "patch": 3,
+        "band": "i"
+      },
+      "cores": 1,
+      "flops": 600000000,
+      "creation_time": null,
+      "input_files": [
+        "deep_coadd_q260.dat"
+      ],
+      "input_file_sizes": {
+        "deep_coadd_q260.dat": 400000000
+      },
+      "output_files": {
+        "binned_image_q340.dat": 15000000
+      },
+      "parents": [
+        260
+      ],
+      "children": [
+        {
+          "jobid": 341,
+          "creation_delay": 0,
+          "dataset_type": "binned_image"
+        }
+      ]
+    },
+    {
+      "jobid": 341,
+      "task": "makeWholeTractDeepCoaddImage",
+      "resource_key": "makeWholeTractDeepCoaddImage:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 1,
+        "band": "i"
+      },
+      "cores": 1,
+      "flops": 2000000000,
+      "creation_time": null,
+      "input_files": [
+        "binned_image_q337.dat",
+        "binned_image_q338.dat",
+        "binned_image_q339.dat",
+        "binned_image_q340.dat"
+      ],
+      "input_file_sizes": {
+        "binned_image_q337.dat": 15000000,
+        "binned_image_q338.dat": 15000000,
+        "binned_image_q339.dat": 15000000,
+        "binned_image_q340.dat": 15000000
+      },
+      "output_files": {
+        "whole_tract_image_q341.dat": 60000000
+      },
+      "parents": [
+        337,
+        338,
+        339,
+        340
+      ],
+      "children": [
+        {
+          "jobid": 342,
+          "creation_delay": 0,
+          "dataset_type": "whole_tract_image"
+        }
+      ]
+    },
+    {
+      "jobid": 342,
+      "task": "aggregateDeepCoaddMaskFractions",
+      "resource_key": "aggregateDeepCoaddMaskFractions:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 1,
+        "band": "i"
+      },
+      "cores": 1,
+      "flops": 500000000,
+      "creation_time": null,
+      "input_files": [
+        "whole_tract_image_q341.dat"
+      ],
+      "input_file_sizes": {
+        "whole_tract_image_q341.dat": 60000000
+      },
+      "output_files": {
+        "qa_metrics_q342.dat": 500000
+      },
+      "parents": [
+        341
+      ],
+      "children": [
+        {
+          "jobid": 356,
+          "creation_delay": 0,
+          "dataset_type": "qa_metrics"
+        }
+      ]
+    },
+    {
+      "jobid": 343,
+      "task": "analyzeObjectTableSurveyCore",
+      "resource_key": "analyzeObjectTableSurveyCore:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam"
+      },
+      "cores": 1,
+      "flops": 3000000000,
+      "creation_time": null,
+      "input_files": [
+        "object_q137.dat",
+        "object_q275.dat"
+      ],
+      "input_file_sizes": {
+        "object_q137.dat": 40000000,
+        "object_q275.dat": 40000000
+      },
+      "output_files": {
+        "qa_plot_bundle_q343.dat": 30000000
+      },
+      "parents": [
+        137,
+        275
+      ],
+      "children": []
+    },
+    {
+      "jobid": 344,
+      "task": "makeMetricTableObjectTableCore",
+      "resource_key": "makeMetricTableObjectTableCore:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam"
+      },
+      "cores": 1,
+      "flops": 300000000,
+      "creation_time": null,
+      "input_files": [
+        "qa_metrics_q293.dat",
+        "qa_metrics_q318.dat"
+      ],
+      "input_file_sizes": {
+        "qa_metrics_q293.dat": 500000,
+        "qa_metrics_q318.dat": 500000
+      },
+      "output_files": {
+        "qa_metrics_table_q344.dat": 2000000
+      },
+      "parents": [
+        293,
+        318
+      ],
+      "children": [
+        {
+          "jobid": 345,
+          "creation_delay": 0,
+          "dataset_type": "qa_metrics_table"
+        }
+      ]
+    },
+    {
+      "jobid": 345,
+      "task": "objectTableCoreWholeSkyPlot",
+      "resource_key": "objectTableCoreWholeSkyPlot:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam"
+      },
+      "cores": 1,
+      "flops": 500000000,
+      "creation_time": null,
+      "input_files": [
+        "qa_metrics_table_q344.dat"
+      ],
+      "input_file_sizes": {
+        "qa_metrics_table_q344.dat": 2000000
+      },
+      "output_files": {
+        "qa_plot_bundle_q345.dat": 30000000
+      },
+      "parents": [
+        344
+      ],
+      "children": []
+    },
+    {
+      "jobid": 346,
+      "task": "makeMetricTableObjectParentTableCore",
+      "resource_key": "makeMetricTableObjectParentTableCore:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam"
+      },
+      "cores": 1,
+      "flops": 300000000,
+      "creation_time": null,
+      "input_files": [
+        "qa_metrics_q294.dat",
+        "qa_metrics_q319.dat"
+      ],
+      "input_file_sizes": {
+        "qa_metrics_q294.dat": 500000,
+        "qa_metrics_q319.dat": 500000
+      },
+      "output_files": {
+        "qa_metrics_table_q346.dat": 2000000
+      },
+      "parents": [
+        294,
+        319
+      ],
+      "children": [
+        {
+          "jobid": 347,
+          "creation_delay": 0,
+          "dataset_type": "qa_metrics_table"
+        }
+      ]
+    },
+    {
+      "jobid": 347,
+      "task": "objectParentTableCoreWholeSkyPlot",
+      "resource_key": "objectParentTableCoreWholeSkyPlot:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam"
+      },
+      "cores": 1,
+      "flops": 500000000,
+      "creation_time": null,
+      "input_files": [
+        "qa_metrics_table_q346.dat"
+      ],
+      "input_file_sizes": {
+        "qa_metrics_table_q346.dat": 2000000
+      },
+      "output_files": {
+        "qa_plot_bundle_q347.dat": 30000000
+      },
+      "parents": [
+        346
+      ],
+      "children": []
+    },
+    {
+      "jobid": 348,
+      "task": "makeMetricTableObjectTableCoreRefCatMatch",
+      "resource_key": "makeMetricTableObjectTableCoreRefCatMatch:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam"
+      },
+      "cores": 1,
+      "flops": 300000000,
+      "creation_time": null,
+      "input_files": [
+        "qa_metrics_q295.dat",
+        "qa_metrics_q320.dat"
+      ],
+      "input_file_sizes": {
+        "qa_metrics_q295.dat": 500000,
+        "qa_metrics_q320.dat": 500000
+      },
+      "output_files": {
+        "qa_metrics_table_q348.dat": 2000000
+      },
+      "parents": [
+        295,
+        320
+      ],
+      "children": [
+        {
+          "jobid": 349,
+          "creation_delay": 0,
+          "dataset_type": "qa_metrics_table"
+        }
+      ]
+    },
+    {
+      "jobid": 349,
+      "task": "objectTableCoreRefCatMatchWholeSkyPlot",
+      "resource_key": "objectTableCoreRefCatMatchWholeSkyPlot:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam"
+      },
+      "cores": 1,
+      "flops": 500000000,
+      "creation_time": null,
+      "input_files": [
+        "qa_metrics_table_q348.dat"
+      ],
+      "input_file_sizes": {
+        "qa_metrics_table_q348.dat": 2000000
+      },
+      "output_files": {
+        "qa_plot_bundle_q349.dat": 30000000
+      },
+      "parents": [
+        348
+      ],
+      "children": []
+    },
+    {
+      "jobid": 350,
+      "task": "makeAggregatedDeepCoaddMaskFractionsTable",
+      "resource_key": "makeAggregatedDeepCoaddMaskFractionsTable:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "band": "g"
+      },
+      "cores": 1,
+      "flops": 300000000,
+      "creation_time": null,
+      "input_files": [
+        "qa_metrics_q303.dat",
+        "qa_metrics_q328.dat"
+      ],
+      "input_file_sizes": {
+        "qa_metrics_q303.dat": 500000,
+        "qa_metrics_q328.dat": 500000
+      },
+      "output_files": {
+        "qa_metrics_table_q350.dat": 2000000
+      },
+      "parents": [
+        303,
+        328
+      ],
+      "children": [
+        {
+          "jobid": 351,
+          "creation_delay": 0,
+          "dataset_type": "qa_metrics_table"
+        }
+      ]
+    },
+    {
+      "jobid": 351,
+      "task": "aggregatedDeepCoaddMaskFractionsWholeSkyPlot",
+      "resource_key": "aggregatedDeepCoaddMaskFractionsWholeSkyPlot:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "band": "g"
+      },
+      "cores": 1,
+      "flops": 400000000,
+      "creation_time": null,
+      "input_files": [
+        "qa_metrics_table_q350.dat"
+      ],
+      "input_file_sizes": {
+        "qa_metrics_table_q350.dat": 2000000
+      },
+      "output_files": {
+        "qa_plot_bundle_q351.dat": 30000000
+      },
+      "parents": [
+        350
+      ],
+      "children": []
+    },
+    {
+      "jobid": 352,
+      "task": "plotPropertyMapSurvey",
+      "resource_key": "plotPropertyMapSurvey:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "band": "g"
+      },
+      "cores": 1,
+      "flops": 800000000,
+      "creation_time": null,
+      "input_files": [
+        "healsparse_consolidated_q290.dat"
+      ],
+      "input_file_sizes": {
+        "healsparse_consolidated_q290.dat": 40000000
+      },
+      "output_files": {
+        "qa_plot_bundle_q352.dat": 30000000
+      },
+      "parents": [
+        290
+      ],
+      "children": []
+    },
+    {
+      "jobid": 353,
+      "task": "makeAggregatedDeepCoaddMaskFractionsTable",
+      "resource_key": "makeAggregatedDeepCoaddMaskFractionsTable:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "band": "r"
+      },
+      "cores": 1,
+      "flops": 300000000,
+      "creation_time": null,
+      "input_files": [
+        "qa_metrics_q310.dat",
+        "qa_metrics_q335.dat"
+      ],
+      "input_file_sizes": {
+        "qa_metrics_q310.dat": 500000,
+        "qa_metrics_q335.dat": 500000
+      },
+      "output_files": {
+        "qa_metrics_table_q353.dat": 2000000
+      },
+      "parents": [
+        310,
+        335
+      ],
+      "children": [
+        {
+          "jobid": 354,
+          "creation_delay": 0,
+          "dataset_type": "qa_metrics_table"
+        }
+      ]
+    },
+    {
+      "jobid": 354,
+      "task": "aggregatedDeepCoaddMaskFractionsWholeSkyPlot",
+      "resource_key": "aggregatedDeepCoaddMaskFractionsWholeSkyPlot:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "band": "r"
+      },
+      "cores": 1,
+      "flops": 400000000,
+      "creation_time": null,
+      "input_files": [
+        "qa_metrics_table_q353.dat"
+      ],
+      "input_file_sizes": {
+        "qa_metrics_table_q353.dat": 2000000
+      },
+      "output_files": {
+        "qa_plot_bundle_q354.dat": 30000000
+      },
+      "parents": [
+        353
+      ],
+      "children": []
+    },
+    {
+      "jobid": 355,
+      "task": "plotPropertyMapSurvey",
+      "resource_key": "plotPropertyMapSurvey:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "band": "r"
+      },
+      "cores": 1,
+      "flops": 800000000,
+      "creation_time": null,
+      "input_files": [
+        "healsparse_consolidated_q291.dat"
+      ],
+      "input_file_sizes": {
+        "healsparse_consolidated_q291.dat": 40000000
+      },
+      "output_files": {
+        "qa_plot_bundle_q355.dat": 30000000
+      },
+      "parents": [
+        291
+      ],
+      "children": []
+    },
+    {
+      "jobid": 356,
+      "task": "makeAggregatedDeepCoaddMaskFractionsTable",
+      "resource_key": "makeAggregatedDeepCoaddMaskFractionsTable:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "band": "i"
+      },
+      "cores": 1,
+      "flops": 300000000,
+      "creation_time": null,
+      "input_files": [
+        "qa_metrics_q317.dat",
+        "qa_metrics_q342.dat"
+      ],
+      "input_file_sizes": {
+        "qa_metrics_q317.dat": 500000,
+        "qa_metrics_q342.dat": 500000
+      },
+      "output_files": {
+        "qa_metrics_table_q356.dat": 2000000
+      },
+      "parents": [
+        317,
+        342
+      ],
+      "children": [
+        {
+          "jobid": 357,
+          "creation_delay": 0,
+          "dataset_type": "qa_metrics_table"
+        }
+      ]
+    },
+    {
+      "jobid": 357,
+      "task": "aggregatedDeepCoaddMaskFractionsWholeSkyPlot",
+      "resource_key": "aggregatedDeepCoaddMaskFractionsWholeSkyPlot:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "band": "i"
+      },
+      "cores": 1,
+      "flops": 400000000,
+      "creation_time": null,
+      "input_files": [
+        "qa_metrics_table_q356.dat"
+      ],
+      "input_file_sizes": {
+        "qa_metrics_table_q356.dat": 2000000
+      },
+      "output_files": {
+        "qa_plot_bundle_q357.dat": 30000000
+      },
+      "parents": [
+        356
+      ],
+      "children": []
+    },
+    {
+      "jobid": 358,
+      "task": "plotPropertyMapSurvey",
+      "resource_key": "plotPropertyMapSurvey:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "band": "i"
+      },
+      "cores": 1,
+      "flops": 800000000,
+      "creation_time": null,
+      "input_files": [
+        "healsparse_consolidated_q292.dat"
+      ],
+      "input_file_sizes": {
+        "healsparse_consolidated_q292.dat": 40000000
+      },
+      "output_files": {
+        "qa_plot_bundle_q358.dat": 30000000
+      },
+      "parents": [
+        292
+      ],
+      "children": []
+    },
+    {
+      "jobid": 359,
+      "task": "makeSingleBandRGBCoadd",
+      "resource_key": "makeSingleBandRGBCoadd:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 0,
+        "patch": 0
+      },
+      "cores": 1,
+      "flops": 3000000000,
+      "creation_time": null,
+      "input_files": [
+        "deep_coadd_q6.dat",
+        "deep_coadd_q13.dat",
+        "deep_coadd_q20.dat"
+      ],
+      "input_file_sizes": {
+        "deep_coadd_q6.dat": 400000000,
+        "deep_coadd_q13.dat": 400000000,
+        "deep_coadd_q20.dat": 400000000
+      },
+      "output_files": {
+        "rgb_gray_bundle_q359.dat": 80000000
+      },
+      "parents": [
+        6,
+        13,
+        20
+      ],
+      "children": [
+        {
+          "jobid": 367,
+          "creation_delay": 0,
+          "dataset_type": "rgb_gray_bundle"
+        },
+        {
+          "jobid": 370,
+          "creation_delay": 0,
+          "dataset_type": "rgb_gray_bundle"
+        },
+        {
+          "jobid": 373,
+          "creation_delay": 0,
+          "dataset_type": "rgb_gray_bundle"
+        }
+      ]
+    },
+    {
+      "jobid": 360,
+      "task": "makeSingleBandRGBCoadd",
+      "resource_key": "makeSingleBandRGBCoadd:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 0,
+        "patch": 1
+      },
+      "cores": 1,
+      "flops": 3000000000,
+      "creation_time": null,
+      "input_files": [
+        "deep_coadd_q40.dat",
+        "deep_coadd_q47.dat",
+        "deep_coadd_q54.dat"
+      ],
+      "input_file_sizes": {
+        "deep_coadd_q40.dat": 400000000,
+        "deep_coadd_q47.dat": 400000000,
+        "deep_coadd_q54.dat": 400000000
+      },
+      "output_files": {
+        "rgb_gray_bundle_q360.dat": 80000000
+      },
+      "parents": [
+        40,
+        47,
+        54
+      ],
+      "children": [
+        {
+          "jobid": 367,
+          "creation_delay": 0,
+          "dataset_type": "rgb_gray_bundle"
+        },
+        {
+          "jobid": 370,
+          "creation_delay": 0,
+          "dataset_type": "rgb_gray_bundle"
+        },
+        {
+          "jobid": 373,
+          "creation_delay": 0,
+          "dataset_type": "rgb_gray_bundle"
+        }
+      ]
+    },
+    {
+      "jobid": 361,
+      "task": "makeSingleBandRGBCoadd",
+      "resource_key": "makeSingleBandRGBCoadd:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 0,
+        "patch": 2
+      },
+      "cores": 1,
+      "flops": 3000000000,
+      "creation_time": null,
+      "input_files": [
+        "deep_coadd_q74.dat",
+        "deep_coadd_q81.dat",
+        "deep_coadd_q88.dat"
+      ],
+      "input_file_sizes": {
+        "deep_coadd_q74.dat": 400000000,
+        "deep_coadd_q81.dat": 400000000,
+        "deep_coadd_q88.dat": 400000000
+      },
+      "output_files": {
+        "rgb_gray_bundle_q361.dat": 80000000
+      },
+      "parents": [
+        74,
+        81,
+        88
+      ],
+      "children": [
+        {
+          "jobid": 367,
+          "creation_delay": 0,
+          "dataset_type": "rgb_gray_bundle"
+        },
+        {
+          "jobid": 370,
+          "creation_delay": 0,
+          "dataset_type": "rgb_gray_bundle"
+        },
+        {
+          "jobid": 373,
+          "creation_delay": 0,
+          "dataset_type": "rgb_gray_bundle"
+        }
+      ]
+    },
+    {
+      "jobid": 362,
+      "task": "makeSingleBandRGBCoadd",
+      "resource_key": "makeSingleBandRGBCoadd:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 0,
+        "patch": 3
+      },
+      "cores": 1,
+      "flops": 3000000000,
+      "creation_time": null,
+      "input_files": [
+        "deep_coadd_q108.dat",
+        "deep_coadd_q115.dat",
+        "deep_coadd_q122.dat"
+      ],
+      "input_file_sizes": {
+        "deep_coadd_q108.dat": 400000000,
+        "deep_coadd_q115.dat": 400000000,
+        "deep_coadd_q122.dat": 400000000
+      },
+      "output_files": {
+        "rgb_gray_bundle_q362.dat": 80000000
+      },
+      "parents": [
+        108,
+        115,
+        122
+      ],
+      "children": [
+        {
+          "jobid": 367,
+          "creation_delay": 0,
+          "dataset_type": "rgb_gray_bundle"
+        },
+        {
+          "jobid": 370,
+          "creation_delay": 0,
+          "dataset_type": "rgb_gray_bundle"
+        },
+        {
+          "jobid": 373,
+          "creation_delay": 0,
+          "dataset_type": "rgb_gray_bundle"
+        }
+      ]
+    },
+    {
+      "jobid": 363,
+      "task": "makeSingleBandRGBCoadd",
+      "resource_key": "makeSingleBandRGBCoadd:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 1,
+        "patch": 0
+      },
+      "cores": 1,
+      "flops": 3000000000,
+      "creation_time": null,
+      "input_files": [
+        "deep_coadd_q144.dat",
+        "deep_coadd_q151.dat",
+        "deep_coadd_q158.dat"
+      ],
+      "input_file_sizes": {
+        "deep_coadd_q144.dat": 400000000,
+        "deep_coadd_q151.dat": 400000000,
+        "deep_coadd_q158.dat": 400000000
+      },
+      "output_files": {
+        "rgb_gray_bundle_q363.dat": 80000000
+      },
+      "parents": [
+        144,
+        151,
+        158
+      ],
+      "children": [
+        {
+          "jobid": 367,
+          "creation_delay": 0,
+          "dataset_type": "rgb_gray_bundle"
+        },
+        {
+          "jobid": 370,
+          "creation_delay": 0,
+          "dataset_type": "rgb_gray_bundle"
+        },
+        {
+          "jobid": 373,
+          "creation_delay": 0,
+          "dataset_type": "rgb_gray_bundle"
+        }
+      ]
+    },
+    {
+      "jobid": 364,
+      "task": "makeSingleBandRGBCoadd",
+      "resource_key": "makeSingleBandRGBCoadd:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 1,
+        "patch": 1
+      },
+      "cores": 1,
+      "flops": 3000000000,
+      "creation_time": null,
+      "input_files": [
+        "deep_coadd_q178.dat",
+        "deep_coadd_q185.dat",
+        "deep_coadd_q192.dat"
+      ],
+      "input_file_sizes": {
+        "deep_coadd_q178.dat": 400000000,
+        "deep_coadd_q185.dat": 400000000,
+        "deep_coadd_q192.dat": 400000000
+      },
+      "output_files": {
+        "rgb_gray_bundle_q364.dat": 80000000
+      },
+      "parents": [
+        178,
+        185,
+        192
+      ],
+      "children": [
+        {
+          "jobid": 367,
+          "creation_delay": 0,
+          "dataset_type": "rgb_gray_bundle"
+        },
+        {
+          "jobid": 370,
+          "creation_delay": 0,
+          "dataset_type": "rgb_gray_bundle"
+        },
+        {
+          "jobid": 373,
+          "creation_delay": 0,
+          "dataset_type": "rgb_gray_bundle"
+        }
+      ]
+    },
+    {
+      "jobid": 365,
+      "task": "makeSingleBandRGBCoadd",
+      "resource_key": "makeSingleBandRGBCoadd:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 1,
+        "patch": 2
+      },
+      "cores": 1,
+      "flops": 3000000000,
+      "creation_time": null,
+      "input_files": [
+        "deep_coadd_q212.dat",
+        "deep_coadd_q219.dat",
+        "deep_coadd_q226.dat"
+      ],
+      "input_file_sizes": {
+        "deep_coadd_q212.dat": 400000000,
+        "deep_coadd_q219.dat": 400000000,
+        "deep_coadd_q226.dat": 400000000
+      },
+      "output_files": {
+        "rgb_gray_bundle_q365.dat": 80000000
+      },
+      "parents": [
+        212,
+        219,
+        226
+      ],
+      "children": [
+        {
+          "jobid": 367,
+          "creation_delay": 0,
+          "dataset_type": "rgb_gray_bundle"
+        },
+        {
+          "jobid": 370,
+          "creation_delay": 0,
+          "dataset_type": "rgb_gray_bundle"
+        },
+        {
+          "jobid": 373,
+          "creation_delay": 0,
+          "dataset_type": "rgb_gray_bundle"
+        }
+      ]
+    },
+    {
+      "jobid": 366,
+      "task": "makeSingleBandRGBCoadd",
+      "resource_key": "makeSingleBandRGBCoadd:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "tract": 1,
+        "patch": 3
+      },
+      "cores": 1,
+      "flops": 3000000000,
+      "creation_time": null,
+      "input_files": [
+        "deep_coadd_q246.dat",
+        "deep_coadd_q253.dat",
+        "deep_coadd_q260.dat"
+      ],
+      "input_file_sizes": {
+        "deep_coadd_q246.dat": 400000000,
+        "deep_coadd_q253.dat": 400000000,
+        "deep_coadd_q260.dat": 400000000
+      },
+      "output_files": {
+        "rgb_gray_bundle_q366.dat": 80000000
+      },
+      "parents": [
+        246,
+        253,
+        260
+      ],
+      "children": [
+        {
+          "jobid": 367,
+          "creation_delay": 0,
+          "dataset_type": "rgb_gray_bundle"
+        },
+        {
+          "jobid": 370,
+          "creation_delay": 0,
+          "dataset_type": "rgb_gray_bundle"
+        },
+        {
+          "jobid": 373,
+          "creation_delay": 0,
+          "dataset_type": "rgb_gray_bundle"
+        }
+      ]
+    },
+    {
+      "jobid": 367,
+      "task": "makeHighOrderHipsG",
+      "resource_key": "makeHighOrderHipsG:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "band": "g"
+      },
+      "cores": 1,
+      "flops": 1500000000,
+      "creation_time": null,
+      "input_files": [
+        "rgb_gray_bundle_q359.dat",
+        "rgb_gray_bundle_q360.dat",
+        "rgb_gray_bundle_q361.dat",
+        "rgb_gray_bundle_q362.dat",
+        "rgb_gray_bundle_q363.dat",
+        "rgb_gray_bundle_q364.dat",
+        "rgb_gray_bundle_q365.dat",
+        "rgb_gray_bundle_q366.dat"
+      ],
+      "input_file_sizes": {
+        "rgb_gray_bundle_q359.dat": 80000000,
+        "rgb_gray_bundle_q360.dat": 80000000,
+        "rgb_gray_bundle_q361.dat": 80000000,
+        "rgb_gray_bundle_q362.dat": 80000000,
+        "rgb_gray_bundle_q363.dat": 80000000,
+        "rgb_gray_bundle_q364.dat": 80000000,
+        "rgb_gray_bundle_q365.dat": 80000000,
+        "rgb_gray_bundle_q366.dat": 80000000
+      },
+      "output_files": {
+        "hips_tile_q367.dat": 5000000
+      },
+      "parents": [
+        359,
+        360,
+        361,
+        362,
+        363,
+        364,
+        365,
+        366
+      ],
+      "children": [
+        {
+          "jobid": 368,
+          "creation_delay": 0,
+          "dataset_type": "hips_tile"
+        }
+      ]
+    },
+    {
+      "jobid": 368,
+      "task": "makeLowOrderHipsG",
+      "resource_key": "makeLowOrderHipsG:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "band": "g"
+      },
+      "cores": 1,
+      "flops": 500000000,
+      "creation_time": null,
+      "input_files": [
+        "hips_tile_q367.dat"
+      ],
+      "input_file_sizes": {
+        "hips_tile_q367.dat": 5000000
+      },
+      "output_files": {
+        "hips_tile_q368.dat": 5000000
+      },
+      "parents": [
+        367
+      ],
+      "children": [
+        {
+          "jobid": 369,
+          "creation_delay": 0,
+          "dataset_type": "hips_tile"
+        }
+      ]
+    },
+    {
+      "jobid": 369,
+      "task": "writeAllSkyHipsInfoG",
+      "resource_key": "writeAllSkyHipsInfoG:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "band": "g"
+      },
+      "cores": 1,
+      "flops": 100000000,
+      "creation_time": null,
+      "input_files": [
+        "hips_tile_q368.dat"
+      ],
+      "input_file_sizes": {
+        "hips_tile_q368.dat": 5000000
+      },
+      "output_files": {
+        "hips_allsky_q369.dat": 40000000
+      },
+      "parents": [
+        368
+      ],
+      "children": []
+    },
+    {
+      "jobid": 370,
+      "task": "makeHighOrderHipsR",
+      "resource_key": "makeHighOrderHipsR:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "band": "r"
+      },
+      "cores": 1,
+      "flops": 1500000000,
+      "creation_time": null,
+      "input_files": [
+        "rgb_gray_bundle_q359.dat",
+        "rgb_gray_bundle_q360.dat",
+        "rgb_gray_bundle_q361.dat",
+        "rgb_gray_bundle_q362.dat",
+        "rgb_gray_bundle_q363.dat",
+        "rgb_gray_bundle_q364.dat",
+        "rgb_gray_bundle_q365.dat",
+        "rgb_gray_bundle_q366.dat"
+      ],
+      "input_file_sizes": {
+        "rgb_gray_bundle_q359.dat": 80000000,
+        "rgb_gray_bundle_q360.dat": 80000000,
+        "rgb_gray_bundle_q361.dat": 80000000,
+        "rgb_gray_bundle_q362.dat": 80000000,
+        "rgb_gray_bundle_q363.dat": 80000000,
+        "rgb_gray_bundle_q364.dat": 80000000,
+        "rgb_gray_bundle_q365.dat": 80000000,
+        "rgb_gray_bundle_q366.dat": 80000000
+      },
+      "output_files": {
+        "hips_tile_q370.dat": 5000000
+      },
+      "parents": [
+        359,
+        360,
+        361,
+        362,
+        363,
+        364,
+        365,
+        366
+      ],
+      "children": [
+        {
+          "jobid": 371,
+          "creation_delay": 0,
+          "dataset_type": "hips_tile"
+        }
+      ]
+    },
+    {
+      "jobid": 371,
+      "task": "makeLowOrderHipsR",
+      "resource_key": "makeLowOrderHipsR:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "band": "r"
+      },
+      "cores": 1,
+      "flops": 500000000,
+      "creation_time": null,
+      "input_files": [
+        "hips_tile_q370.dat"
+      ],
+      "input_file_sizes": {
+        "hips_tile_q370.dat": 5000000
+      },
+      "output_files": {
+        "hips_tile_q371.dat": 5000000
+      },
+      "parents": [
+        370
+      ],
+      "children": [
+        {
+          "jobid": 372,
+          "creation_delay": 0,
+          "dataset_type": "hips_tile"
+        }
+      ]
+    },
+    {
+      "jobid": 372,
+      "task": "writeAllSkyHipsInfoR",
+      "resource_key": "writeAllSkyHipsInfoR:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "band": "r"
+      },
+      "cores": 1,
+      "flops": 100000000,
+      "creation_time": null,
+      "input_files": [
+        "hips_tile_q371.dat"
+      ],
+      "input_file_sizes": {
+        "hips_tile_q371.dat": 5000000
+      },
+      "output_files": {
+        "hips_allsky_q372.dat": 40000000
+      },
+      "parents": [
+        371
+      ],
+      "children": []
+    },
+    {
+      "jobid": 373,
+      "task": "makeHighOrderHipsI",
+      "resource_key": "makeHighOrderHipsI:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "band": "i"
+      },
+      "cores": 1,
+      "flops": 1500000000,
+      "creation_time": null,
+      "input_files": [
+        "rgb_gray_bundle_q359.dat",
+        "rgb_gray_bundle_q360.dat",
+        "rgb_gray_bundle_q361.dat",
+        "rgb_gray_bundle_q362.dat",
+        "rgb_gray_bundle_q363.dat",
+        "rgb_gray_bundle_q364.dat",
+        "rgb_gray_bundle_q365.dat",
+        "rgb_gray_bundle_q366.dat"
+      ],
+      "input_file_sizes": {
+        "rgb_gray_bundle_q359.dat": 80000000,
+        "rgb_gray_bundle_q360.dat": 80000000,
+        "rgb_gray_bundle_q361.dat": 80000000,
+        "rgb_gray_bundle_q362.dat": 80000000,
+        "rgb_gray_bundle_q363.dat": 80000000,
+        "rgb_gray_bundle_q364.dat": 80000000,
+        "rgb_gray_bundle_q365.dat": 80000000,
+        "rgb_gray_bundle_q366.dat": 80000000
+      },
+      "output_files": {
+        "hips_tile_q373.dat": 5000000
+      },
+      "parents": [
+        359,
+        360,
+        361,
+        362,
+        363,
+        364,
+        365,
+        366
+      ],
+      "children": [
+        {
+          "jobid": 374,
+          "creation_delay": 0,
+          "dataset_type": "hips_tile"
+        }
+      ]
+    },
+    {
+      "jobid": 374,
+      "task": "makeLowOrderHipsI",
+      "resource_key": "makeLowOrderHipsI:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "band": "i"
+      },
+      "cores": 1,
+      "flops": 500000000,
+      "creation_time": null,
+      "input_files": [
+        "hips_tile_q373.dat"
+      ],
+      "input_file_sizes": {
+        "hips_tile_q373.dat": 5000000
+      },
+      "output_files": {
+        "hips_tile_q374.dat": 5000000
+      },
+      "parents": [
+        373
+      ],
+      "children": [
+        {
+          "jobid": 375,
+          "creation_delay": 0,
+          "dataset_type": "hips_tile"
+        }
+      ]
+    },
+    {
+      "jobid": 375,
+      "task": "writeAllSkyHipsInfoI",
+      "resource_key": "writeAllSkyHipsInfoI:LSSTCam",
+      "data_id": {
+        "instrument": "LSSTCam",
+        "band": "i"
+      },
+      "cores": 1,
+      "flops": 100000000,
+      "creation_time": null,
+      "input_files": [
+        "hips_tile_q374.dat"
+      ],
+      "input_file_sizes": {
+        "hips_tile_q374.dat": 5000000
+      },
+      "output_files": {
+        "hips_allsky_q375.dat": 40000000
+      },
+      "parents": [
+        374
       ],
       "children": []
     }
