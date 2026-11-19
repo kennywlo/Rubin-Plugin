@@ -1,48 +1,56 @@
 #include "workload_manager.h"
 
-JobQueue WORKLOAD_MANAGER::getWorkload() {
-    auto* platform = simgrid::s4u::Engine::get_instance()->get_netzone_root();
-    const std::string path = platform->get_property("jobs_file");
-    json data; std::ifstream(path) >> data;
-    JobQueue jobs;
+void WORKLOAD_MANAGER::setWorkload(CGSim::JobQueue& jobs) {
+
+    auto jobs_file = rm->get_custom_parameter("jobs_file");
+    json data;
+    std::ifstream(jobs_file) >> data;
 
     for (const auto& x : data["jobs"]) 
     {
-        Job* j = new Job;
-        j->jobid = x["jobid"];
-        j->creation_time = x["creation_time"].is_null() ? -1.0 : x["creation_time"].get<double>();
-        j->cores = x["cores"];
-        j->flops = x["flops"];
+        CGSim::Job* j = new CGSim::Job();
+
+        std::string id = x["jobid"];
+        double creation_time = x["creation_time"].is_null() ? -1.0 : x["creation_time"].get<double>();
+        int cores = x["cores"];
+        long long flops = x["flops"];
+        
+        j->set_id(id);
+        j->set_creation_time(creation_time);
+        j->set_cores(cores);
+        j->set_flops(flops);
 
         for (auto& item : x["input_file_sizes"].items()) 
         {
             std::string filename = item.key();
             long long size = item.value().get<long long>();
             if(size <= 0) continue;
-            j->input_files.insert(filename);
-            if (j->creation_time == 0) CGSim::get_file_manager()->create(filename,size,"Site0");
+            j->add_input_file(filename);
+            if (j->get_creation_time() == 0) fm->create(filename,size,"Site0");
         }
 
         for (const auto& [name, size] : x["output_files"].items()) 
         {
-            j->output_files[name] = size.get<long long>();
+            j->add_output_file(name, std::to_string(size.get<double>() / 1'000'000.0) + " MB");
         }
 
         for (const auto& parent : x["parents"]) 
         {
-            j->add_parent(parent.get<long long>());
+            std::string parent_id = std::to_string(parent.get<long long>());
+            j->add_parent(parent_id);
         }
 
         for (const auto& child : x["children"]) 
         {
-            j->add_child(child["jobid"].get<long long>(),child["creation_delay"].get<double>());
+            auto child_id = std::to_string(child["jobid"].get<long long>());
+            auto delay = child["creation_delay"].get<double>();
+            j->add_child(child_id,delay);
         }
 
-        j->metadata["task"] = x.value("task", "");
-        j->metadata["resource_key"] = x.value("resource_key", "");
+        j->set_property("task",x.value("task", ""));
+        j->set_property("resource_key",x.value("resource_key", ""));
         jobs.push(j);
     }
-
-    return jobs;
 }
+
 

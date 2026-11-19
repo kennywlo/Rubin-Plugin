@@ -13,7 +13,11 @@ class WORKLOAD_MANAGER {
 public:
     WORKLOAD_MANAGER(){};
    ~WORKLOAD_MANAGER(){};
-    JobQueue getWorkload();
+    void setWorkload(CGSim::JobQueue& jobs);
+
+private:
+  CGSim::GlobalManagers::ResourceManager* rm = CGSim::GlobalManagers::get_resource_manager();
+  CGSim::GlobalManagers::FileManager*     fm = CGSim::GlobalManagers::get_file_manager();
    
 };
 

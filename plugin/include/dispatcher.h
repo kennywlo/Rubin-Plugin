@@ -13,10 +13,13 @@ public:
   DISPATCHER(){};
  ~DISPATCHER(){};
 
-  double      storage_needed(std::unordered_map<std::string, long long>& files);
-  Job*        assignJob(Job* job);
-  void        findBestSite(Job* j);  
-  void        findAvailableCPU(Job* j);
+  void        assignJob(CGSim::Job* job);
+  void        findBestSite(CGSim::Job* j);  
+  void        findAvailableCPU(CGSim::Job* j);
+
+private:
+  CGSim::GlobalManagers::ResourceManager* rm = CGSim::GlobalManagers::get_resource_manager();
+  CGSim::GlobalManagers::FileManager*     fm = CGSim::GlobalManagers::get_file_manager();
 };
 
 #endif

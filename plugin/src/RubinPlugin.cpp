@@ -1,3 +1,4 @@
+
 #include "plugin.h"
 #include "dispatcher.h"
 #include "workload_manager.h"
@@ -7,125 +8,217 @@ class RubinPlugin : public CGSim::Plugin {
 
 public:
     RubinPlugin();
-    virtual JobQueue getWorkload() final override;
-    virtual Job* assignJob(Job* job) final override;
 
-    virtual void onSimulationStart() final override;
-    virtual void onSimulationEnd() final override;
-    virtual void onJobExecutionStart(Job* job, simgrid::s4u::Exec const& ex) final override;
-    virtual void onJobExecutionEnd(Job* job, simgrid::s4u::Exec const& ex) final override;
-    virtual void onJobTransferStart(Job* job, simgrid::s4u::Mess const& me) final override;
-    virtual void onJobTransferEnd(Job* job, simgrid::s4u::Mess const& me) final override;
-    virtual void onFileTransferStart(Job* job, const std::string& filename, const unsigned long long filesize, simgrid::s4u::Comm const& co, const std::string& src_site, const std::string& dst_site) final override;
-    virtual void onFileTransferEnd(Job* job, const std::string& filename, const unsigned long long filesize, simgrid::s4u::Comm const& co, const std::string& src_site, const std::string& dst_site) final override;
-    virtual void onFileReadStart(Job* job, const std::string& filename, const unsigned long long filesize, simgrid::s4u::Io const& io) final override;
-    virtual void onFileReadEnd(Job* job, const std::string& filename, const unsigned long long filesize, simgrid::s4u::Io const& io) final override;
-    virtual void onFileWriteStart(Job* job, const std::string& filename, const unsigned long long filesize, simgrid::s4u::Io const& io) final override;
-    virtual void onFileWriteEnd(Job* job, const std::string& filename, const unsigned long long filesize, simgrid::s4u::Io const& io) final override;
-    virtual void onBackGroundFileTransferStart(const std::string& filename, const unsigned long long filesize, simgrid::s4u::Comm const& co, const std::string& src_site, const std::string& dst_site, const std::string& policy_name) final override;
-    virtual void onBackGroundFileTransferEnd(const std::string& filename, const unsigned long long filesize, simgrid::s4u::Comm const& co, const std::string& src_site, const std::string& dst_site, const std::string& policy_name) final override;
+    void setWorkload(CGSim::JobQueue& jobs) final override;
+    void assignJob(CGSim::Job* job) final override;
 
+    void onSimulationStart() final override;
+    void onSimulationEnd() final override;
 
-    virtual void onFileRequest(Job* j, std::string filename, long long filesize, std::unordered_set<std::string> file_locations, std::string& source_site, CGSim::FileTransferDecisionMode& mode) final override;
+    void onJobExecutionStart(CGSim::Job* job) final override;
+    void onJobExecutionEnd(CGSim::Job* job) final override;
+
+    void onJobTransferStart(CGSim::Job* job) final override;
+    void onJobTransferEnd(CGSim::Job* job) final override;
+
+    void onFileTransferStart(
+        CGSim::Job* job,
+        const std::string& filename,
+        const unsigned long long filesize,
+        const std::string& src_site,
+        const std::string& dst_site) final override;
+
+    void onFileTransferEnd(
+        CGSim::Job* job,
+        const std::string& filename,
+        const unsigned long long filesize,
+        const std::string& src_site,
+        const std::string& dst_site) final override;
+
+    void onFileReadStart(
+        CGSim::Job* job,
+        const std::string& filename,
+        const unsigned long long filesize) final override;
+
+    void onFileReadEnd(
+        CGSim::Job* job,
+        const std::string& filename,
+        const unsigned long long filesize) final override;
+
+    void onFileWriteStart(
+        CGSim::Job* job,
+        const std::string& filename,
+        const unsigned long long filesize) final override;
+
+    void onFileWriteEnd(
+        CGSim::Job* job,
+        const std::string& filename,
+        const unsigned long long filesize) final override;
+
+    void onUserFileTransferStart(
+        const std::string& filename,
+        const unsigned long long filesize,
+        const std::string& src_site,
+        const std::string& dst_site,
+        const std::string& policy_name) final override;
+
+    void onUserFileTransferEnd(
+        const std::string& filename,
+        const unsigned long long filesize,
+        const std::string& src_site,
+        const std::string& dst_site,
+        const std::string& policy_name) final override;
 
 private:
-  std::unique_ptr<DISPATCHER>        di = std::make_unique<DISPATCHER>();
-  std::unique_ptr<WORKLOAD_MANAGER>  wm = std::make_unique<WORKLOAD_MANAGER>();
-  std::shared_ptr<OUTPUT>            ou = std::make_unique<OUTPUT>();
+    std::unique_ptr<DISPATCHER> di =
+        std::make_unique<DISPATCHER>();
 
+    std::unique_ptr<WORKLOAD_MANAGER> wm =
+        std::make_unique<WORKLOAD_MANAGER>();
+
+    std::shared_ptr<OUTPUT> ou =
+        std::make_shared<OUTPUT>();
 };
+
 
 RubinPlugin::RubinPlugin()
 {
 }
 
-JobQueue RubinPlugin::getWorkload()
+
+void RubinPlugin::setWorkload(CGSim::JobQueue& jobs)
 {
-  return wm->getWorkload();
+    wm->setWorkload(jobs);
 }
 
-Job* RubinPlugin::assignJob(Job* job)
+
+void RubinPlugin::assignJob(CGSim::Job* job)
 {
-  return di->assignJob(job);
+    di->assignJob(job);
 }
+
 
 void RubinPlugin::onSimulationStart()
 {
-  ou->onSimulationStart();
+    ou->onSimulationStart();
 }
+
 
 void RubinPlugin::onSimulationEnd()
 {
-   ou->onSimulationEnd();
+    ou->onSimulationEnd();
 }
 
-void RubinPlugin::onJobExecutionStart(Job* job, simgrid::s4u::Exec const& ex)
+
+void RubinPlugin::onJobExecutionStart(CGSim::Job* job)
 {
-   ou->onJobExecutionStart(job,ex);
+    ou->onJobExecutionStart(job);
 }
 
-void RubinPlugin::onJobExecutionEnd(Job* job, simgrid::s4u::Exec const& ex)
+
+void RubinPlugin::onJobExecutionEnd(CGSim::Job* job)
 {
-   ou->onJobExecutionEnd(job,ex);
+    ou->onJobExecutionEnd(job);
 }
 
-void RubinPlugin::onJobTransferStart(Job* job, simgrid::s4u::Mess const& me)
+
+void RubinPlugin::onJobTransferStart(CGSim::Job* job)
 {
-   ou->onJobTransferStart(job,me);
+    ou->onJobTransferStart(job);
 }
 
-void RubinPlugin::onJobTransferEnd(Job* job, simgrid::s4u::Mess const& me)
+
+void RubinPlugin::onJobTransferEnd(CGSim::Job* job)
 {
-   ou->onJobTransferEnd(job,me);
+    ou->onJobTransferEnd(job);
 }
 
-void RubinPlugin::onFileTransferStart(Job* job, const std::string& filename, const unsigned long long filesize, simgrid::s4u::Comm const& co, const std::string& src_site, const std::string& dst_site)
+
+void RubinPlugin::onFileTransferStart(
+    CGSim::Job* job,
+    const std::string& filename,
+    const unsigned long long filesize,
+    const std::string& src_site,
+    const std::string& dst_site)
 {
-   ou->onFileTransferStart(job,filename, filesize, co,src_site,dst_site);
+    ou->onFileTransferStart(
+        job, filename, filesize, src_site, dst_site);
 }
 
-void RubinPlugin::onFileTransferEnd(Job* job, const std::string& filename, const unsigned long long filesize, simgrid::s4u::Comm const& co, const std::string& src_site, const std::string& dst_site)
+
+void RubinPlugin::onFileTransferEnd(
+    CGSim::Job* job,
+    const std::string& filename,
+    const unsigned long long filesize,
+    const std::string& src_site,
+    const std::string& dst_site)
 {
-   ou->onFileTransferEnd(job,filename, filesize, co,src_site,dst_site);
+    ou->onFileTransferEnd(
+        job, filename, filesize, src_site, dst_site);
 }
 
-void RubinPlugin::onBackGroundFileTransferStart(const std::string& filename, const unsigned long long filesize, simgrid::s4u::Comm const& co, const std::string& src_site, const std::string& dst_site, const std::string& policy_name)
+
+void RubinPlugin::onFileReadStart(
+    CGSim::Job* job,
+    const std::string& filename,
+    const unsigned long long filesize)
 {
-   ou->onBackGroundFileTransferStart(filename, filesize, co,src_site,dst_site,policy_name);
+    ou->onFileReadStart(job, filename, filesize);
 }
 
-void RubinPlugin::onBackGroundFileTransferEnd(const std::string& filename, const unsigned long long filesize, simgrid::s4u::Comm const& co, const std::string& src_site, const std::string& dst_site, const std::string& policy_name)
+
+void RubinPlugin::onFileReadEnd(
+    CGSim::Job* job,
+    const std::string& filename,
+    const unsigned long long filesize)
 {
-   ou->onBackGroundFileTransferEnd(filename, filesize, co,src_site,dst_site,policy_name);
+    ou->onFileReadEnd(job, filename, filesize);
 }
 
-void RubinPlugin::onFileReadStart(Job* job, const std::string& filename, const unsigned long long filesize, simgrid::s4u::Io const& io)
+
+void RubinPlugin::onFileWriteStart(
+    CGSim::Job* job,
+    const std::string& filename,
+    const unsigned long long filesize)
 {
-   ou->onFileReadStart(job,filename, filesize, io);
+    ou->onFileWriteStart(job, filename, filesize);
 }
 
-void RubinPlugin::onFileReadEnd(Job* job, const std::string& filename, const unsigned long long filesize, simgrid::s4u::Io const& io)
+
+void RubinPlugin::onFileWriteEnd(
+    CGSim::Job* job,
+    const std::string& filename,
+    const unsigned long long filesize)
 {
-   ou->onFileReadEnd(job,filename, filesize, io);
+    ou->onFileWriteEnd(job, filename, filesize);
 }
 
-void RubinPlugin::onFileWriteStart(Job* job, const std::string& filename, const unsigned long long filesize, simgrid::s4u::Io const& io)
+
+void RubinPlugin::onUserFileTransferStart(
+    const std::string& filename,
+    const unsigned long long filesize,
+    const std::string& src_site,
+    const std::string& dst_site,
+    const std::string& policy_name)
 {
-   ou->onFileWriteStart(job,filename, filesize, io);
+    ou->onUserFileTransferStart(
+        filename, filesize, src_site, dst_site, policy_name);
 }
 
-void RubinPlugin::onFileWriteEnd(Job* job, const std::string& filename, const unsigned long long filesize, simgrid::s4u::Io const& io)
+
+void RubinPlugin::onUserFileTransferEnd(
+    const std::string& filename,
+    const unsigned long long filesize,
+    const std::string& src_site,
+    const std::string& dst_site,
+    const std::string& policy_name)
 {
-   ou->onFileWriteEnd(job,filename, filesize, io);
+    ou->onUserFileTransferEnd(
+        filename, filesize, src_site, dst_site, policy_name);
 }
 
-void RubinPlugin::onFileRequest(Job* j, std::string filename, long long filesize, std::unordered_set<std::string> file_locations, std::string& source_site, CGSim::FileTransferDecisionMode& mode)
-{
-   if(file_locations.find(j->comp_site) != file_locations.end()) source_site = j->comp_site;
-   else source_site = *(file_locations.begin());
-}
 
 extern "C" RubinPlugin* createRubinPlugin()
 {
-    return new RubinPlugin;
+    return new RubinPlugin();
 }
